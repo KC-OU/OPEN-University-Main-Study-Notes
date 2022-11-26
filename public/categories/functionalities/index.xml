@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functionalities on Shadocs theme documentation</title>
+    <link>https://example.com/categories/functionalities/</link>
+    <description>Recent content in Functionalities on Shadocs theme documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/categories/functionalities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disabled simple page</title>
+      <link>https://example.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</guid>
+      <description>Manually disabled simple page#</description>
+    </item>
+    
+    <item>
+      <title>Empty section</title>
+      <link>https://example.com/functionalities/sidebar/empty_section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/empty_section/</guid>
+      <description>Description#An empty section will be displayed in same way as a single page and therefore can be defined using the following methods:
+a _index.md content page located in a folder containing no other single content page Section
+_index.md
+a content page defined by a *.md page located in any folder Section
+empty_section.md
+&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Global banner</title>
+      <link>https://example.com/functionalities/banner/global/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/banner/global/</guid>
+      <description>Description#To display a global banner, that will be rendered on every page, define the globalBanner parameter to true inside the config.toml file.
+By default, the banner will contain a text about a deprecated version, defined in the banner_default_content variable of the i18n module, using the two following parameters:
+currentVersion latestVersionUrl Example#The current page is displaying the default banner.</description>
+    </item>
+    
+    <item>
+      <title>Sidebar</title>
+      <link>https://example.com/functionalities/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/</guid>
+      <description>Description#By default the theme generates a sidebar associated with the content tree structure of the website.
+This tree structure must follow the Hugo standard content organization and allows to manage two kind of pages:
+section defined by a _index.md content page in a folder containing at least one other simple content page simple content page defined by a _index.md content page in a folder containing no other simple content page defined by a *.</description>
+    </item>
+    
+    <item>
+      <title>Simple disabled section page</title>
+      <link>https://example.com/functionalities/sidebar/disabled_section/simple_section_page_disabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/disabled_section/simple_section_page_disabled/</guid>
+      <description>Description#Cf. Simple page</description>
+    </item>
+    
+    <item>
+      <title>Simple page 1</title>
+      <link>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simple section page</title>
+      <link>https://example.com/functionalities/sidebar/section/simple_section_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section/simple_section_page/</guid>
+      <description>Description#Cf. Simple page</description>
+    </item>
+    
+    <item>
+      <title>Single page without table of contents</title>
+      <link>https://example.com/functionalities/toc/toc_disabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/toc/toc_disabled/</guid>
+      <description>Level 1 title#Level 2 title#Level 3 title#Level 4 title#Level 5 title#Level 6 title#Second level 1 title#Second level 2 title#Second level 3 title#Second level 4 title#Second level 5 title#Second level 6 title#</description>
+    </item>
+    
+    <item>
+      <title>Empty simple page</title>
+      <link>https://example.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multilingual</title>
+      <link>https://example.com/functionalities/multilingual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/multilingual/</guid>
+      <description>Description#By default the theme manages the Hugo multilingual mode.
+A menu located in the navigation bar allows to switch to the chosen language, depending on the configuration of the website. However, this menu will only appear if the current page has an available translation (the page must have the same name in all translations).</description>
+    </item>
+    
+    <item>
+      <title>Section</title>
+      <link>https://example.com/functionalities/sidebar/section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section/</guid>
+      <description>Description#A section is automatically defined as follows:
+a _index.md content page located in a folder containing at least one other simple content page Section
+_index.md
+&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Simple page 2</title>
+      <link>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single banner</title>
+      <link>https://example.com/functionalities/banner/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/banner/single/</guid>
+      <description>Description#To display a specific banner, that will be displayed on a single page, define the banner parameter to true inside the front matter of the page.
+By default, the banner will contain the banner_default_content variable of the i18n module, but it is possible to use a specific text using the bannerContent parameter inside the front matter of the page.
+Example#Page front matter---...banner: truebannerContent: &amp;#34;I&amp;#39;m a banner&amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>Disabled section</title>
+      <link>https://example.com/functionalities/sidebar/disabled_section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/disabled_section/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functionalities</title>
+      <link>https://example.com/functionalities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/</guid>
+      <description>Sidebar
+Empty section
+Section
+Simple section page
+Disabled section
+Simple disabled section page
+Disabled pages
+Disabled simple page
+Empty simple page
+Sorted pages
+Simple page 1
+Simple page 2
+Simple page 3
+Simple page
+Single page with icon
+Multilingual
+Taxonomies
+Table of contents
+Single page without table of contents
+Thridparties imports
+Search
+Mermaid
+Shortcuts
+Javascript helpers functions
+Print
+404
+Page QR code
+Banner
+Global banner
+Single banner
+Versionning</description>
+    </item>
+    
+    <item>
+      <title>Simple page 3</title>
+      <link>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomies</title>
+      <link>https://example.com/functionalities/taxonomies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/taxonomies/</guid>
+      <description>Description#By default the theme manages the Hugo taxonomies.
+A menu located in the navigation bar allows to select a taxonomy and switch to the taxonomies view, depending on the configuration of the website. However, this menu will only appear if at least one taxonomy has been parametrized on the website.Associate a logo to a taxonomy#A logo can be associated to a taxonomy, that will appear in the navigation bar menu, by defining an `icon parameter like below:</description>
+    </item>
+    
+    <item>
+      <title>Disabled pages</title>
+      <link>https://example.com/functionalities/sidebar/section_disabled_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_disabled_pages/</guid>
+      <description>Description#A page can be set as disabled using the two following methods:
+automatically, if the page does not contain any content (excluding front matter) manually, by setting the sidebarDisabled variable to true in the front matter Since a section is a special case of a content page, it is possible to define an empty section in the same way as a simple content page.Examples#Automatic deactivation: page.</description>
+    </item>
+    
+    <item>
+      <title>Table of contents</title>
+      <link>https://example.com/functionalities/toc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/toc/</guid>
+      <description>Description#By default in the theme, each content page (except homepage) generates a table of contents associated with the titles defined in the page.
+It is possible to activate or deactivate this functionnality, both globally (sitewide) or per-page, with the following considerations:
+the homepage never contains the table of contents the configuration key to use is toc without configuration, the table of contents is enabled globally (sitewide) the following configuration precedence apply (from highest to lowest): page configuration site configuration the following configuration is used to activate/deactivate the table of content globally (sitewide) [params]toc = true/false the following configuration is used to activate/deactivate the table of content on a single page (to define in the front matter) ---toc: false--- When activated, the table of contents is only available when the window width is greater than 1024 pixels.</description>
+    </item>
+    
+    <item>
+      <title>Sorted pages</title>
+      <link>https://example.com/functionalities/sidebar/section_sorted_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/section_sorted_pages/</guid>
+      <description>Description#By default the theme manages the sidebar content sorting according to the standard Hugo content sorting.
+Sorting behavior#In order to define a specific behavior for the sidebar content sorting, siteContentOrder configuration key must be used in the specific parameters of the site.
+The possible values ​​of this parameter is linked to the different Hugo sorting methods, without spaces and in lowercase.
+Examples#config.toml ([params] section).</description>
+    </item>
+    
+    <item>
+      <title>Thridparties imports</title>
+      <link>https://example.com/functionalities/thirdparty_imports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/thirdparty_imports/</guid>
+      <description>Description#By default in the theme, it is possible to import libraries or third-party code into the generated html page, using the website configuration.
+The several types of imports managed by the theme are the following ones:
+Import type Comment SASS files (.sass) Imported in &amp;lt;head&amp;gt; tag as &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt; after being converted as CSS by Hugo, grouped and minified in main.css file Paths used for the SASS➔CSS conversion : assets/bulma assets/sass CSS files (.</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://example.com/functionalities/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/search/</guid>
+      <description>Description#By default the theme provides a search option. It allow simple searches on the website and on the markdown content before being converted to html, using the FlexSearch javascript library.
+The several characteristics of the research are:
+simple search (search based on regular expression not available) diacritics insensitive search results autocompletion results grouped relative to their main section link to the page containing the result </description>
+    </item>
+    
+    <item>
+      <title>Simple page</title>
+      <link>https://example.com/functionalities/sidebar/simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/simple_page/</guid>
+      <description>Description#A content page is defined as follows:
+*.md page located in a folder containing at least one section definition page (_index.md) Section
+_index.md
+simple_page.md</description>
+    </item>
+    
+    <item>
+      <title>Mermaid</title>
+      <link>https://example.com/functionalities/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/mermaid/</guid>
+      <description>Description#By default the theme manage the Mermaid format, allowing to display diagrams created from text and code, while adding several utility functionalities.
+The several characteristics and functionalities of the Mermaid management in the theme are:
+rendered from a fenced code block and mermaid highlight language export button associated to each rendered svg preview (clic on the rendered image) Examples#Markdown Rendering ```mermaidgraph TBsubgraph Étape 2b1(Action 2.</description>
+    </item>
+    
+    <item>
+      <title>Single page with icon</title>
+      <link>https://example.com/functionalities/sidebar/icon_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/icon_simple_page/</guid>
+      <description>Description#A content section or page can be identified using an icon from the FontAwesome library in order to ease navigation.
+Two possible parametrization (with the several FontAwesome classes for each parameter value):
+standard parametrization using the default theme configuration per-page parametrization using the titleIcon variable in front matter Standard parametrization#themeParams.toml... [sidebar] # FontAwesome classes associated with the default icon of the home page homeSectionIconDefault = &amp;#34;fa-solid fa-house-chimney&amp;#34; # FontAwesome classes associated with the default icon of the first level sections/pages firstSectionIconDefault = &amp;#34;fa-solid fa-ban&amp;#34; # FontAwesome classes associated with the default icon for 1+ level sections/pages nestedSectionIconDefault = &amp;#34;fa-solid fa-turn-up fa-rotate-90 fa-xs&amp;#34; .</description>
+    </item>
+    
+    <item>
+      <title>Shortcuts</title>
+      <link>https://example.com/functionalities/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/shortcuts/</guid>
+      <description>Description#By default keyboard shortcuts are provided to make it easier to interact with the theme, but it is possible to define specific shortcuts through a minimum of configuration. For example, it is possible to get the list of available shortcuts using the shortcut Shift + k.
+Define a specific shortcut#To define a shortcut, follow this process (example with the example (Maj + 1) shortcut from the theme website):</description>
+    </item>
+    
+    <item>
+      <title>Javascript helpers functions</title>
+      <link>https://example.com/functionalities/helpers_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/helpers_js/</guid>
+      <description>Description#In order to ease the use of the theme, some javascript functions defined in the file assets/js/theme/modules/helpers.js are provided. These functions are defined globally using the file assets/js/theme/modules/helpersGlobal.js and thus can be called from every scope.
+JavaScript helper functions#Code Description closeModals(modal); Function managing modal closing:
+If filled in, only the modal set as input is closed If no input, all modals are closed disableSmoothScroll(); Fonction deactivating smooth scrolling on main content.</description>
+    </item>
+    
+    <item>
+      <title>Print</title>
+      <link>https://example.com/functionalities/print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/print/</guid>
+      <description>Description#In the theme, it is possible to print (or export as PDF) the current page, to share its content.
+Characteristics#The theme makes it possible to print a page content with the following characteristics:
+the print only contains the current main page content: sidebar is not printed navigation bar is not printed table of contents is not printed pagebreaks are automatically adjusted to the content but it is possible to define specific ones using pagebreak shortcode an icon located in the navigation bar and a shortcut allow access to the print preview The printed PDF document text from Firefox is not selectable unlike Chromium-based browsers.</description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>https://example.com/functionalities/error404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/error404/</guid>
+      <description>Description#By default a 404 error page is provided by the theme, but a specific one can be defined following the Hugo documentation.
+Theme page 404#404 </description>
+    </item>
+    
+    <item>
+      <title>Page QR code</title>
+      <link>https://example.com/functionalities/qrcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/qrcode/</guid>
+      <description>Description#In the theme, it is possible to display the current page URL as a QR code, to share its content easily.
+Characteristics#The theme makes it possible to display the current page URL with the following characteristics:
+the error correction level of the QR code is set to L the QR code is displayed as an image with MIME type set as image/png an icon located in the navigation bar and a shortcut allow access to the QR code preview </description>
+    </item>
+    
+    <item>
+      <title>Banner</title>
+      <link>https://example.com/functionalities/banner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/banner/</guid>
+      <description>Description#In the theme, it is possible to display a banner, on top of the page content, using two available options:
+activate the whole website as an archived one, and print a banner on all pages activate a banner for a single page </description>
+    </item>
+    
+    <item>
+      <title>Versionning</title>
+      <link>https://example.com/functionalities/versionning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/versionning/</guid>
+      <description>Description#By default in the theme, it is possible to specify a dropdown list of links referencing other versions of the website, available in the navigation bar.
+Define another versions of the website#To define other versions of the website, specify them in the params.navbar.versions list of the config.toml configuration file:
+[params] [[params.navbar.versions]] name = &amp;#39;latest&amp;#39; url = &amp;#39;http://latest.website&amp;#39; [[params.navbar.versions]] name = &amp;#39;vX&amp;#39; url = &amp;#39;http://vX.website&amp;#39; [[params.navbar.versions]] name = &amp;#39;v1&amp;#39; url = &amp;#39;http://v1.</description>
+    </item>
+    
+  </channel>
+</rss>

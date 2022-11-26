@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Divers on Documentation du thème Shadocs</title>
+    <link>https://example.com/fr/categories/divers/</link>
+    <description>Recent content in Divers on Documentation du thème Shadocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/fr/categories/divers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan du site</title>
+      <link>https://example.com/fr/sitemap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/sitemap/</guid>
+      <description>Documentation du thème Shadocs
+Thème
+Introduction
+Configuration
+Vers l&amp;#39;infini et au-delà !
+Contributer
+Le Markdown
+Titre
+Séparation horizontale
+Paragraphe
+Saut de ligne
+L&amp;#39;accentuation
+Citation
+Liste
+Extrait de code
+Lien
+Image
+Tableau
+Note de bas de page
+Emoji
+L&amp;#39;échappement des caractères
+Commentaire
+Fonctionnalités
+Menu latéral
+Section vide
+Section
+Page simple de section
+Section désactivée
+Page simple de section désactivée
+Pages désactivées
+Page simple désactivée
+Page simple vide
+Pages triées
+Page simple 1</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Shadocs theme documentation</title>
+    <link>https://example.com/tags/configuration/</link>
+    <description>Recent content in Configuration on Shadocs theme documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation: Introduction</title>
+      <link>https://example.com/theme/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/theme/introduction/</guid>
+      <description>Version management#Assets used in the theme#Asset Minimum version Hugo (Extended version) 0.91.0Bulma 0.9.3Several other assets are used in Shadocs. Versions can be found within the .bmycconfig.json file and assets are automatically updated using the Bmyc library.Installation#Hugo website creation#To create a Hugo website, the Hugo documentation provides a complete Quickstart which includes all the necessary steps to easily and quickly create a Hugo website.</description>
+    </item>
+    
+    <item>
+      <title>Installation: Configuration</title>
+      <link>https://example.com/theme/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/theme/configuration/</guid>
+      <description>General considerations#To configure a Hugo website using the theme, there are three types of configuration:
+Type Configuration file Standard Hugo configuration ./config.toml Specific configuration using site variables ./config.toml Default theme configuration .themes/shadocs/data/themeParams.toml Specific configuration#config.toml ([params] section)[params] # Website logo file paths logo = &amp;#34;images/logo.png&amp;#34; logoTouch = &amp;#34;images/logoTouch.png&amp;#34; # Image file path displayed during a 404 error image404 = &amp;#34;images/404.gif&amp;#34; # Favicon website file path favicon = &amp;#34;images/favicon.</description>
+    </item>
+    
+    <item>
+      <title>Taxonomies</title>
+      <link>https://example.com/functionalities/taxonomies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/taxonomies/</guid>
+      <description>Description#By default the theme manages the Hugo taxonomies.
+A menu located in the navigation bar allows to select a taxonomy and switch to the taxonomies view, depending on the configuration of the website. However, this menu will only appear if at least one taxonomy has been parametrized on the website.Associate a logo to a taxonomy#A logo can be associated to a taxonomy, that will appear in the navigation bar menu, by defining an `icon parameter like below:</description>
+    </item>
+    
+    <item>
+      <title>Thridparties imports</title>
+      <link>https://example.com/functionalities/thirdparty_imports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/thirdparty_imports/</guid>
+      <description>Description#By default in the theme, it is possible to import libraries or third-party code into the generated html page, using the website configuration.
+The several types of imports managed by the theme are the following ones:
+Import type Comment SASS files (.sass) Imported in &amp;lt;head&amp;gt; tag as &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt; after being converted as CSS by Hugo, grouped and minified in main.css file Paths used for the SASS➔CSS conversion : assets/bulma assets/sass CSS files (.</description>
+    </item>
+    
+    <item>
+      <title>Shortcuts</title>
+      <link>https://example.com/functionalities/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/shortcuts/</guid>
+      <description>Description#By default keyboard shortcuts are provided to make it easier to interact with the theme, but it is possible to define specific shortcuts through a minimum of configuration. For example, it is possible to get the list of available shortcuts using the shortcut Shift + k.
+Define a specific shortcut#To define a shortcut, follow this process (example with the example (Maj + 1) shortcut from the theme website):</description>
+    </item>
+    
+    <item>
+      <title>Javascript helpers functions</title>
+      <link>https://example.com/functionalities/helpers_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/helpers_js/</guid>
+      <description>Description#In order to ease the use of the theme, some javascript functions defined in the file assets/js/theme/modules/helpers.js are provided. These functions are defined globally using the file assets/js/theme/modules/helpersGlobal.js and thus can be called from every scope.
+JavaScript helper functions#Code Description closeModals(modal); Function managing modal closing:
+If filled in, only the modal set as input is closed If no input, all modals are closed disableSmoothScroll(); Fonction deactivating smooth scrolling on main content.</description>
+    </item>
+    
+  </channel>
+</rss>

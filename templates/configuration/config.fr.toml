@@ -1,0 +1,116 @@
+[params]
+  # Chemin des fichiers logo du site
+  logo                    = "images/logo.png"
+  logoTouch               = "images/logoTouch.png"
+  # Chemin du fichier de l'image affichée en cas d'erreur 404
+  image404                = "images/404.gif"
+  # Chemin du fichier du favicon du site
+  favicon                 = "images/favicon.png"
+  # Aperçu par défaut de la page d'accueil
+  homeLayout              = "onboarding"
+  # Ordre du contenu du site (https://gohugo.io/templates/lists/#order-content)
+  siteContentOrder        = "weight"
+  # Active/Désactive la table des matières de manière globale (sur tout le site)
+  toc                     = true
+  # Active une bannière globale sur toutes les pages du site
+  globalBanner            = true
+  # Version courante du site
+  currentVersion          = "latest"
+  # Url de la dernière version du site
+  latestVersionUrl        = "https://shadocs.netlify.app/"
+  # Force la résolution des liens en utilisant la fonction relref (https://gohugo.io/content-management/cross-references/)
+  enforceRefrelLinks      = true
+  # Liste des raccourcis clavier
+  # Pour chaque raccourci il faut renseigner les clés suivantes:
+  # - keys     = [Table des touches de clavier du raccourci](https://developer.mozilla.org/fr/docs/Web/API/KeyboardEvent/key/Key_Values)
+  # - function = "Nom de la fonction javascript à appeler par le raccourci"
+  [params.navbar.shortcuts]
+    # Définition du raccourci d'exemple
+    [params.navbar.shortcuts.example]
+      keys     = ["Shift","1"]
+      function = "scExample"
+  # Liste des taxonomies
+  # Pour chaque taxonomie il est possible de renseigner les clés suivantes:
+  # - icon = "Classes fontawesome associées à la taxonomie"
+  [params.taxonomies]
+    [params.taxonomies.categories]
+      icon = "fa-solid fa-table-cells"
+  # Liste des assets (https://gohugo.io/hugo-pipes/resource-from-template/) à inclures
+  # Les assets gérés:
+  # - sass                  = [Liste des fichiers SASS]
+  # - css                   = [Liste des fichiers CSS]
+  # - js                    = [Liste des fichiers javascript]
+  # - jsModules             = [Liste des fichiers modules javascript]
+  # - shortcodes.css        = [Liste des fichiers CSS à inclure quand le shortcode associé est présent dans le contenu de la page]
+  # - shortcodes.js         = [Liste des fichiers javascript à inclure quand le shortcode associé est présent dans le contenu de la page]
+  # - shortcodes.jsModules  = [Liste des fichiers modules javascript à inclure quand le shortcode associé est présent dans le contenu de la page]
+  # - fencedcodes.css       = [Liste des fichiers CSS à inclure quand le language d'un bloc de code cloisonné associé est présent dans le contenu de la page]
+  # - fencedcodes.js        = [Liste des fichiers javascript à inclure quand le language d'un bloc de code cloisonné associé est présent dans le contenu de la page]
+  # - fencedcodes.jsModules = [Liste des fichiers modules javascript à inclure quand le language d'un bloc de code cloisonné associé est présent dans le contenu de la page]
+  #
+  [params.includes]
+    sass = [
+      "sass/file1.sass",
+      "sass/fileX.sass"
+    ]
+    css = [
+      "css/file1.css",
+      "css/fileX.css"
+    ]
+    js = [
+      "js/file1.js",
+      "js/fileX.js"
+    ]
+    jsModules = [
+      "js/modules/file1.js",
+      "js/modules/fileX.js"
+    ]
+  [params.includes.shortcodes.sass]
+    shortcode1 = [
+        "sass/shortcodes/shortcode1.sass"
+      ]
+    shortcodeX = [
+        "sass/shortcodes/shortcodeX.sass"
+      ]
+  [params.includes.shortcodes.css]
+    shortcode1 = [
+        "css/shortcodes/shortcode1.css"
+      ]
+    shortcodeX = [
+        "css/shortcodes/shortcodeX.css"
+      ]
+  [params.includes.shortcodes.js]
+    shortcode1 = [
+        "js/shortcodes/shortcode1.js"
+      ]
+    shortcodeX = [
+        "js/shortcodes/shortcodeX.js"
+      ]
+  [params.includes.shortcodes.jsModules]
+    shortcode1 = [
+        "js/shortcodes/modules/shortcode1.js"
+      ]
+    shortcodeX = [
+        "js/shortcodes/modules/shortcodeX.js"
+      ]
+  [params.includes.fencedcodes.css]
+    shortcode1 = [
+        "css/fencedcodes/shortcode1.css"
+      ]
+    shortcodeX = [
+        "css/fencedcodes/shortcodeX.css"
+      ]
+  [params.includes.fencedcodes.js]
+    shortcode1 = [
+        "js/fencedcodes/shortcode1.js"
+      ]
+    shortcodeX = [
+        "js/fencedcodes/shortcodeX.js"
+      ]
+  [params.includes.fencedcodes.jsModules]
+    shortcode1 = [
+        "js/fencedcodes/modules/shortcode1.js"
+      ]
+    shortcodeX = [
+        "js/fencedcodes/modules/shortcodeX.js"
+      ]

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Shadocs theme documentation</title>
+    <link>https://example.com/categories/markdown/</link>
+    <description>Recent content in Markdown on Shadocs theme documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown: Title</title>
+      <link>https://example.com/markdown/title/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/title/</guid>
+      <description>Title#Classic title#To define a title, add a corresponding number of crosses (#) to the desired title level (from 1 to 6) at line start, followed by a space.
+Markdown HTML Rendering # Level 1 title &amp;lt;h1&amp;gt;Level 1 title&amp;lt;/h1&amp;gt; Level 1 title### Level 2 title &amp;lt;h2&amp;gt;Level 2 title&amp;lt;/h2&amp;gt; Level 2 title#### Level 3 title &amp;lt;h3&amp;gt;Level 3 title&amp;lt;/h3&amp;gt; Level 3 title##### Level 4 title &amp;lt;h4&amp;gt;Level 4 title&amp;lt;/h4&amp;gt; Level 4 title###### Level 5 title &amp;lt;h5&amp;gt;Level 5 title&amp;lt;/h5&amp;gt; Level 5 title####### Level 6 title &amp;lt;h6&amp;gt;Level 6 title&amp;lt;/h6&amp;gt; Level 6 title#Alternative syntax#For levels 1 and 2 only, it is possible to use an alternative syntax:</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Horizontal rule</title>
+      <link>https://example.com/markdown/horizontal_rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/horizontal_rule/</guid>
+      <description>Horizontal rule#To define a horizontal rule, add at least 3 stars (*), hyphens (-) or underscores (_) characters at line start (The line must only contain the choosen characters).
+Markdown HTML Rendering ***---___****** &amp;lt;hr&amp;gt;&amp;lt;hr&amp;gt;&amp;lt;hr&amp;gt;&amp;lt;hr&amp;gt; Warning, for readability and compatibility reasons, it is recommended to include horizontal rules between two empty lines.</description>
+    </item>
+    
+    <item>
+      <title>The Markdown</title>
+      <link>https://example.com/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/</guid>
+      <description>A little bit of history#The Markdown has been created by John Gruber to make it easier writing text and improve its visibility. It is a lightweight markup language that allows user to write content in a structured way without having to focus on rendering and styling. Using a markdown converter will generate stylized documents in several formats.
+The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible.</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Paragraph</title>
+      <link>https://example.com/markdown/paragraph/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/paragraph/</guid>
+      <description>Paragraph#To define a paragraph, separate lines of text with 1 empty line.
+Markdown HTML Rendering I&amp;#39;m a paragraph.And I&amp;#39;m another one! &amp;lt;p&amp;gt;I&amp;#39;m a paragraph.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;And I&amp;#39;m another one!&amp;lt;/p&amp;gt; I&amp;rsquo;m a paragraph.
+And I&amp;rsquo;m another one!</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Line break</title>
+      <link>https://example.com/markdown/line_break/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/line_break/</guid>
+      <description>Line break#Classic syntax#To define a line break, add 2 spaces at the end of a text line and follow it with another text line.
+Markdown HTML Rendering I&amp;#39;m a paragraph, and I&amp;#39;m with you! &amp;lt;p&amp;gt;I&amp;#39;m a paragraph,&amp;lt;br&amp;gt;and I&amp;#39;m with you!&amp;lt;/p&amp;gt; I&amp;rsquo;m a paragraph,
+and I&amp;rsquo;m with you! Alternative syntax#To define a line break, it is possible to use an alternative syntax:
+Add a backslash (\) at the end of a text line.</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Emphasis</title>
+      <link>https://example.com/markdown/emphasis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/emphasis/</guid>
+      <description>Emphasis#Italic text#To define an italic text, include it between 1 star (*) or 1 underscore (_).
+Markdown HTML Rendering I&amp;#39;m in *italic* I&amp;#39;m in &amp;lt;em&amp;gt;italic&amp;lt;/em&amp;gt; I&amp;rsquo;m in italic Warning, for compatibility reasons between the several markdowns syntaxes, it is recommended to use the stars syntax rather than the underscores one.Bold text#To define a bold text, include it between 2 stars (*) or 2 underscores (_).</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Blockquote</title>
+      <link>https://example.com/markdown/blockquote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/blockquote/</guid>
+      <description>Blockquote#Simple blockquote#To define a blockquote, add a greater-than character (&amp;gt;) at line start, followed by a space.
+Markdown HTML Rendering &amp;gt; I&amp;#39;m a blockquote. &amp;lt;blockquote&amp;gt;&amp;lt;p&amp;gt;I&amp;#39;m a blockquote.&amp;lt;/p&amp;gt;&amp;lt;/blockquote&amp;gt; I&amp;rsquo;m a blockquote.
+Blockquote over several paragraphs#To define a blockquote over several paragraphs, add a greater-than character (&amp;gt;) at line start, even empty (always followed by a space for lines containing text).
+Markdown HTML Rendering &amp;gt; I&amp;#39;m a blockquote.</description>
+    </item>
+    
+    <item>
+      <title>Markdown: List</title>
+      <link>https://example.com/markdown/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/list/</guid>
+      <description>List#Ordered list#To define an ordered list, add a number followed by the dot character (.) to the line start, followed by a space (The numbers order is not important, but the first line number defines the starting point of the list).
+It is possible to nest lists by adding at least 4 spaces to the line start compared to the previous level (all the same level elements must have the same number of spaces at the line start).</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Code snippet</title>
+      <link>https://example.com/markdown/code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/code/</guid>
+      <description>Code snippet#Code fragment#To define a code fragment, add a backtick (`) before and after the code to highlight.
+Markdown HTML Rendering Enter `hugo version` to get the Hugo version &amp;lt;p&amp;gt;Enter &amp;lt;code&amp;gt;hugo version&amp;lt;/code&amp;gt; to get the Hugo version&amp;lt;/p&amp;gt; Enter hugo version to get the Hugo version Nested code fragment#To define a nested code fragment, add two backticks (`) before and after the global text that will contain the nested code fragment.</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Link</title>
+      <link>https://example.com/markdown/link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/link/</guid>
+      <description>Link#Classic syntax#To define a link, use the following syntax:
+[Link_text](Link_URL) Markdown HTML Rendering [I&amp;#39;m a relative link to another page (in the same folder) of the website](image/) &amp;lt;a href=&amp;#34;/markdown/image/&amp;#34;&amp;gt;I&amp;#39;m a relative link to another page (in the same folder) of the website&amp;lt;/a&amp;gt; I&amp;rsquo;m a relative link to another page (in the same folder) of the website [I&amp;#39;m a relative link to another page (parent page) of the website](.</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Image</title>
+      <link>https://example.com/markdown/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/image/</guid>
+      <description>Image#Classic syntax#To define an image, use the following syntax:
+![Image_alternative_text](Image_URL) Markdown HTML Rendering ![I&amp;#39;m an image](/images/favicon.png) &amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;/images/favicon.png&amp;#34; alt=&amp;#34;I&amp;#39;m an image&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; Image in a link#To define a link to an image, encapsulate the image in a classic link syntax.
+Markdown HTML Rendering [![I&amp;#39;m an image](/images/favicon.png)](/) &amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;/&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;/images/favicon.png&amp;#34; alt=&amp;#34;I&amp;#39;m an image&amp;#34;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Markdown: Table</title>
+      <link>https://example.com/markdown/table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/table/</guid>
+      <description>Table#Classic syntax#To define a table, use the following rules:
+Separate columns with vertical bars (|) Insert vertical bars (|) at both ends of the table Separate column title with its content, with a demarcation line containing at least 3 hyphens characters (-) Markdown HTML Rendering | Variable | Value | Description || -------- | ----- | ----------- || A | 1 | Integer || B | 2 | | &amp;lt;table&amp;gt;&amp;lt;thead&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;Variable&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Value&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/thead&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;A&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;1&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Integer&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;B&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;2&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt; Variable Value Description A 1 Integer B 2 |Variable|Value|Description||---|---|---||A|1|Integer||B|2|| &amp;lt;table&amp;gt;&amp;lt;thead&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;Variable&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Value&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/thead&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;A&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;1&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Integer&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;B&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;2&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt; Variable Value Description A 1 Integer B 2 To easily create tables, it is possible to use online table generators such as Markdown Tables Generator in order to directly get the table markdown code.</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Footnotes</title>
+      <link>https://example.com/markdown/footnotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/footnotes/</guid>
+      <description>Footnotes#To define a footnote, it must be formated in 2 parts.
+First part (footnote reference)
+To define the footnote first part, which corresponds to a reference to be defined in the second part, use the following syntax:
+Text_associated_to_a_footnote[^Footnote_reference] The footnote reference can only contain alphanumeric characters (no spaces nor tabs).Second part (footnote content)
+To define the footnote second part, which corresponds to the content of the footnote, use the following syntax:</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Emoji</title>
+      <link>https://example.com/markdown/emoji/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/emoji/</guid>
+      <description>Emoji#Classic syntax#To define an emoji, use its associated pseudo-code (Sample emoji pseudo-code list).
+Markdown HTML Rendering :metal: &amp;lt;p&amp;gt;🤘&amp;lt;/p&amp;gt; 🤘 Warning, to be able to use the emoji pseudo-code it is necessary that the enableEmoji Hugo option has to be activated.
+In addition, some pseudo-code may not be taken into account by the markdown converter.Alternative syntax#To define an emoji it is possible to use an alternative syntax:</description>
+    </item>
+    
+    <item>
+      <title>Markdown: Escaping characters</title>
+      <link>https://example.com/markdown/escaping_character/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/escaping_character/</guid>
+      <description>Escaping characters#To escape characters, prefix them with a backslash (\) (The list of characters that can be escaped is available below).
+Markdown HTML Rendering \\ &amp;lt;p&amp;gt;\&amp;lt;p&amp;gt; \ \* &amp;lt;p&amp;gt;*&amp;lt;p&amp;gt; * \_ &amp;lt;p&amp;gt;_&amp;lt;p&amp;gt; _ \` &amp;lt;p&amp;gt;`&amp;lt;p&amp;gt; ` \{\} &amp;lt;p&amp;gt;{}&amp;lt;p&amp;gt; {} \[\] &amp;lt;p&amp;gt;[]&amp;lt;p&amp;gt; [] \(\) &amp;lt;p&amp;gt;()&amp;lt;p&amp;gt; () \# &amp;lt;p&amp;gt;#&amp;lt;p&amp;gt; # \+ &amp;lt;p&amp;gt;&amp;#43;&amp;lt;p&amp;gt; + \- &amp;lt;p&amp;gt;-&amp;lt;p&amp;gt; - \. &amp;lt;p&amp;gt;.&amp;lt;p&amp;gt; . \! &amp;lt;p&amp;gt;!&amp;lt;p&amp;gt; ! \| &amp;lt;p&amp;gt;|&amp;lt;p&amp;gt; | </description>
+    </item>
+    
+    <item>
+      <title>Markdown: Comment</title>
+      <link>https://example.com/markdown/commentary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/markdown/commentary/</guid>
+      <description>Comment#To define a comment, use the same syntax as HTML comments (&amp;lt;!-- [&amp;hellip;] --&amp;gt;).
+Markdown HTML Rendering One see me&amp;lt;!-- One doesn&amp;#39;t see me --&amp;gt; &amp;lt;p&amp;gt;One see me&amp;lt;p&amp;gt;&amp;lt;!-- One doesn&amp;#39;t see me --&amp;gt; One see me</description>
+    </item>
+    
+  </channel>
+</rss>

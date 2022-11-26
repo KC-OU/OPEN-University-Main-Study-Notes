@@ -1,0 +1,4832 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+<meta name="generator" content="Hugo 0.107.0">
+
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Everything you need to know before using the theme.'>
+
+<title>Installation: Introduction | Shadocs theme documentation</title>
+
+<link rel='icon' href='/images/favicon.png' type='image/x-icon'>
+
+    
+
+
+  
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <link rel='stylesheet' rel='preload' type='text/css' href='/css/main.css'>
+
+
+
+
+
+  
+
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  
+  
+  
+    
+      
+    
+    <link rel='stylesheet' type='text/css' href='/css/external/fontawesome.all.min.css'>
+  
+    
+      
+    
+    <link rel='stylesheet' type='text/css' href='/css/external/overlay-scrollbars/OverlayScrollbars.min.css'>
+  
+    
+      
+    
+    <link rel='stylesheet' type='text/css' href='/css/shortcuts.min.css'>
+  
+
+
+
+
+
+
+    
+  </head>
+  <body onload='browserCompatibility()'>
+    <section>
+      <div id='navbarInfo' class='is-hidden modal-container'>
+  <div class='modal-content-box modal-text-box'>
+    <div class='card modal-title is-radiusless'>
+      <div class='card-header'>
+        <p class='card-header-title is-marginless'>
+          About
+        </p>
+      </div>
+    </div>
+    <div class='modal-content-container'>
+      <div class='modal-content-block is-block'>
+        
+<div class='columns is-marginless is-multiline is-centered'>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs' target='_blank'>
+      <div>
+        <i class='fa-brands fa-github fa-2x'></i>
+        <p>GitHub repository</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs/archive/main.zip' target='_blank'>
+      <div>
+        <i class='fa-solid fa-download fa-2x'></i>
+        <p>Download</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs/issues' target='_blank'>
+      <div>
+        <i class='fa-solid fa-circle-info fa-2x'></i>
+        <p>Report an issue</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs/fork' target='_blank'>
+      <div>
+        <i class='fa-solid fa-code-branch fa-2x'></i>
+        <p>Fork</p>
+      </div>
+    </a>
+  </div>
+</div>
+<p>Website built with 
+
+<a href='https://gohugo.io/' class='is-pretty-link'>Hugo</a> (0.107.0)</p>
+<p>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU ()</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div id='navbarShortcuts' class='is-hidden modal-container'>
+  <div class='modal-content-box modal-text-box'>
+    
+      
+    
+    
+      
+    
+    
+      <div class='card modal-title is-radiusless'>
+        <div class='card-header'>
+          <p class='card-header-title is-marginless'>
+            Keyboard shortcuts
+          </p>
+        </div>
+      </div>
+      <div class='modal-content-container'>
+        <div class='modal-content-block'>
+          
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>q</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Get current page QR code</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Escape</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Close modals</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>i</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Show website information</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>k</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Show shortcuts</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>h</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Go to homepage</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>f</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Find on website</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>m</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Collapse/Uncollapse sidebar</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>t</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Collapse/Uncollapse toc</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>↑</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Go to the top of the page</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>↓</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Go to the bottom of the page</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>p</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Print current page</p>
+  </div>
+
+              
+            
+          
+          
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>1</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Display a shortcut example</p>
+  </div>
+
+              
+            
+          
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+<div id='modalContainer' class='is-hidden modal-container'>
+  <div id='modal' class='modal-content-box'></div>
+</div>
+<nav id='navbar' class='navbar' role='navigation' aria-label='main navigation'>
+  <div id='navbarItemsContainer' class='navbar-brand'>
+    <div id='globalLogoContainer' class='is-flex'>
+  <a id='globalLogo' class='navbar-item navbar-item-standard is-paddingless' href='/'>
+    <img alt='Homepage' src='/images/logo.png'>
+  </a>
+  <a id='globalTouchLogo' class='navbar-item navbar-item-standard is-paddingless' href='/'>
+    <img alt='Homepage' src='/images/logoTouch.png'>
+  </a>
+</div>
+    <div id='navbarItems' class='is-flex'>
+      <div id='navbarItemsStart' class='is-flex'>
+        <div id='searchContainer' class='navbar-item'>
+          <div class='control has-icons-left'>
+  <span id='searchInput' class='autocomplete'>
+    <input id='search' autocomplete='off' class='input' type='search' placeholder='Search'>
+  </span>
+  <span class='icon is-left'>
+    <i class='fa-solid fa-magnifying-glass'></i>
+  </span>
+  <ul id='searchList' class='is-paddingless is-hidden'></ul>
+</div>
+        </div>
+      </div>
+      <div id='navbarItemsEnd' class='is-flex is-invisible'>
+        
+        <div class='navbar-item'>
+  <a id='printButton' class='button navbar-item-standard'>
+    <span class='icon-text'>Print</span>
+    <span class='icon'>
+      <i class='fa-solid fa-print fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='qrCodeButton' class='button navbar-item-standard'>
+    <span class='icon-text'>QR code</span>
+    <span class='icon'>
+      <i class='fa-solid fa-qrcode fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='shortcutsInfo' trigger='navbarShortcuts' class='button navbar-item-standard navbar-trigger' title='Keyboard shortcuts'>
+    <span class='icon-text'>Shortcuts</span>
+    <span class='icon'>
+      <i class='fa-solid fa-keyboard fa-lg'></i>
+    </span>
+  </a>
+</div>
+
+  
+
+  
+
+
+  <div class='navbar-item'>
+    <div id='taxonomiesSelectorContainer' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='taxonomiesSelector' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Taxonomies</span>
+      <span class='icon'>
+        <i class='fa-solid fa-tags fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-taxonomies' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+        
+          
+          
+            <a href='/categories/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-table-cells'></i>
+                
+              
+              Categories
+            </a>
+          
+        
+      
+        
+          
+          
+            <a href='/tags/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-tag'></i>
+                
+              
+              Tags
+            </a>
+          
+        
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+  
+
+
+  <div class='navbar-item'>
+    <div id='langsSelectorContainer' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='langsSelector' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>English</span>
+      <span class='icon'>
+        <i class='fa-solid fa-globe fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-langs' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+        
+        
+          
+            
+          
+        
+        
+          <div class='dropdown-item is-selected has-text-weight-bold'>
+            English
+          </div>
+        
+      
+        
+        
+          
+            
+          
+        
+        
+          <a href='/fr/theme/introduction/' class='dropdown-item has-text-weight-bold'>
+            Français
+          </a>
+        
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+  <div class='navbar-item'>
+    <div id='versionsSelectorContainer' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='versionsSelector' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Versions</span>
+      <span class='icon'>
+        <i class='fa-solid fa-arrow-down-9-1 fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-versions' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+          <a href='https://shadocs.netlify.app/' class='dropdown-item has-text-weight-bold'>
+            latest
+          </a>
+      
+          <a href='https://shadocs.netlify.app/404.html' class='dropdown-item has-text-weight-bold'>
+            deprecated version
+          </a>
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+<div class='navbar-item'>
+  <a id='siteInfo' trigger='navbarInfo' class='button navbar-item-standard navbar-trigger' title='About'>
+    <span class='icon-text'>About</span>
+    <span class='icon'>
+      <i class='fa-solid fa-circle-question fa-lg'></i>
+    </span>
+  </a>
+</div>
+        <div id='navbarExtend' class='navbar-item'>
+  <div id='navbarExtendWrapper'>
+    <a id='navbarExtendButton' class='button navbar-item-standard'>
+      <span class='icon'>
+        <i class='fa-solid fa-ellipsis fa-lg'></i>
+      </span>
+    </a>
+    <div id='navbarExtendItemsContainer'>
+      <div id='navbarExtendItemsWrapper'>
+        
+        <div class='navbar-item'>
+  <a id='printButtonExtend' class='button navbar-item-standard'>
+    <span class='icon-text'>Print</span>
+    <span class='icon'>
+      <i class='fa-solid fa-print fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='qrCodeButtonExtend' class='button navbar-item-standard'>
+    <span class='icon-text'>QR code</span>
+    <span class='icon'>
+      <i class='fa-solid fa-qrcode fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='shortcutsInfoExtend' trigger='navbarShortcuts' class='button navbar-item-standard navbar-trigger' title='Keyboard shortcuts'>
+    <span class='icon-text'>Shortcuts</span>
+    <span class='icon'>
+      <i class='fa-solid fa-keyboard fa-lg'></i>
+    </span>
+  </a>
+</div>
+
+  
+
+  
+
+
+  <div class='navbar-item'>
+    <div id='taxonomiesSelectorContainerExtend' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='taxonomiesSelectorExtend' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Taxonomies</span>
+      <span class='icon'>
+        <i class='fa-solid fa-tags fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-taxonomiesExtend' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+        
+          
+          
+            <a href='/categories/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-table-cells'></i>
+                
+              
+              Categories
+            </a>
+          
+        
+      
+        
+          
+          
+            <a href='/tags/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-tag'></i>
+                
+              
+              Tags
+            </a>
+          
+        
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+  
+
+
+  <div class='navbar-item'>
+    <div id='langsSelectorContainerExtend' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='langsSelectorExtend' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>English</span>
+      <span class='icon'>
+        <i class='fa-solid fa-globe fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-langsExtend' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+        
+        
+          
+            
+          
+        
+        
+          <div class='dropdown-item is-selected has-text-weight-bold'>
+            English
+          </div>
+        
+      
+        
+        
+          
+            
+          
+        
+        
+          <a href='/fr/theme/introduction/' class='dropdown-item has-text-weight-bold'>
+            Français
+          </a>
+        
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+  <div class='navbar-item'>
+    <div id='versionsSelectorContainerExtend' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='versionsSelectorExtend' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Versions</span>
+      <span class='icon'>
+        <i class='fa-solid fa-arrow-down-9-1 fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-versionsExtend' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+          <a href='https://shadocs.netlify.app/' class='dropdown-item has-text-weight-bold'>
+            latest
+          </a>
+      
+          <a href='https://shadocs.netlify.app/404.html' class='dropdown-item has-text-weight-bold'>
+            deprecated version
+          </a>
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+<div class='navbar-item'>
+  <a id='siteInfoExtend' trigger='navbarInfo' class='button navbar-item-standard navbar-trigger' title='About'>
+    <span class='icon-text'>About</span>
+    <span class='icon'>
+      <i class='fa-solid fa-circle-question fa-lg'></i>
+    </span>
+  </a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id='navbarOverlay'></div>
+      <div class='columns is-mobile is-paddingless is-marginless' id='mainContainer'>
+        <div id='sidebarContainer' class='column is-narrow is-paddingless is-marginless'>
+  <div id='sidebarWrapper' class='is-fixed'>
+    <div id='sidebar' class='is-marginless'>
+      <aside class='menu is-paddingless is-marginless'>
+        <ul class='menu-list is-marginless is-paddingless'>
+          
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon is-sidebar-active'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/theme/' class='card-header-title'>
+        <i class='fa-solid fa-user-gear fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-tree-active is-entries-expandable is-entries-expanded'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/theme/' class='card-header-title' title='Theme'>
+        <i class='fa-solid fa-user-gear fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>Theme</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-expanded'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless is-tree-active'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card is-sidebar-active' id='sidebarActiveEntry'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/theme/introduction/' class='card-header-title' title='Introduction'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Introduction</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/theme/configuration/' class='card-header-title' title='Configuration'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Configuration</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/theme/beyond/' class='card-header-title' title='To infinity and beyond!'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>To infinity and beyond!</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/theme/contribute/' class='card-header-title' title='Contribute'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Contribute</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/markdown/' class='card-header-title'>
+        <i class='fa-brands fa-markdown fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/markdown/' class='card-header-title' title='The Markdown'>
+        <i class='fa-brands fa-markdown fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>The Markdown</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/title/' class='card-header-title' title='Title'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Title</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/horizontal_rule/' class='card-header-title' title='Horizontal rule'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Horizontal rule</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/paragraph/' class='card-header-title' title='Paragraph'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Paragraph</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/line_break/' class='card-header-title' title='Line break'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Line break</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/emphasis/' class='card-header-title' title='Emphasis'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Emphasis</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/blockquote/' class='card-header-title' title='Blockquote'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Blockquote</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/list/' class='card-header-title' title='List'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>List</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/code/' class='card-header-title' title='Code snippet'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Code snippet</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/link/' class='card-header-title' title='Link'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Link</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/image/' class='card-header-title' title='Image'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Image</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/table/' class='card-header-title' title='Table'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Table</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/footnotes/' class='card-header-title' title='Footnotes'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Footnotes</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/emoji/' class='card-header-title' title='Emoji'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Emoji</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/escaping_character/' class='card-header-title' title='Escaping characters'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Escaping characters</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/markdown/commentary/' class='card-header-title' title='Comment'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Comment</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/' class='card-header-title'>
+        <i class='fa-solid fa-cubes fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/' class='card-header-title' title='Functionalities'>
+        <i class='fa-solid fa-cubes fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>Functionalities</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/sidebar/' class='card-header-title' title='Sidebar'>
+        <i class='fa-solid fa-bars'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Sidebar</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/sidebar/empty_section/' class='card-header-title' title='Empty section'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Empty section</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/sidebar/section/' class='card-header-title' title='Section'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Section</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/sidebar/section/simple_section_page/' class='card-header-title' title='Simple section page'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Simple section page</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-sidebar-disable'>
+      <div class='card-header-title' href='/functionalities/sidebar/disabled_section/'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0' title='Disabled section'>Disabled section</p>
+      </div>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/sidebar/disabled_section/simple_section_page_disabled/' class='card-header-title' title='Simple disabled section page'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Simple disabled section page</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/sidebar/section_disabled_pages/' class='card-header-title' title='Disabled pages'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Disabled pages</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-sidebar-disable'>
+      <div class='card-header-title' href='/functionalities/sidebar/section_disabled_pages/disabled_simple_page/'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0' title='Disabled simple page'>Disabled simple page</p>
+      </div>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-sidebar-disable'>
+      <div class='card-header-title' href='/functionalities/sidebar/section_disabled_pages/empty_simple_page/'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0' title='Empty simple page'>Empty simple page</p>
+      </div>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/sidebar/section_sorted_pages/' class='card-header-title' title='Sorted pages'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Sorted pages</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-sidebar-disable'>
+      <div class='card-header-title' href='/functionalities/sidebar/section_sorted_pages/simple_page1/'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0' title='Simple page 1'>Simple page 1</p>
+      </div>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-sidebar-disable'>
+      <div class='card-header-title' href='/functionalities/sidebar/section_sorted_pages/simple_page2/'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0' title='Simple page 2'>Simple page 2</p>
+      </div>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-sidebar-disable'>
+      <div class='card-header-title' href='/functionalities/sidebar/section_sorted_pages/simple_page3/'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0' title='Simple page 3'>Simple page 3</p>
+      </div>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/sidebar/simple_page/' class='card-header-title' title='Simple page'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Simple page</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/sidebar/icon_simple_page/' class='card-header-title' title='Single page with icon'>
+        <i class='fa-solid fa-icons'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Single page with icon</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/multilingual/' class='card-header-title' title='Multilingual'>
+        <i class='fa-solid fa-globe'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Multilingual</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/taxonomies/' class='card-header-title' title='Taxonomies'>
+        <i class='fa-solid fa-tags'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Taxonomies</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/toc/' class='card-header-title' title='Table of contents'>
+        <i class='fa-solid fa-list-ul'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Table of contents</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/toc/toc_disabled/' class='card-header-title' title='Single page without table of contents'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Single page without table of contents</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/thirdparty_imports/' class='card-header-title' title='Thridparties imports'>
+        <i class='fa-solid fa-right-to-bracket fa-rotate-90'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Thridparties imports</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/search/' class='card-header-title' title='Search'>
+        <i class='fa-solid fa-magnifying-glass'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Search</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/mermaid/' class='card-header-title' title='Mermaid'>
+        <i class='fa-solid fa-chart-column'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Mermaid</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/shortcuts/' class='card-header-title' title='Shortcuts'>
+        <i class='fa-solid fa-keyboard'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Shortcuts</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/helpers_js/' class='card-header-title' title='Javascript helpers functions'>
+        <i class='fa-brands fa-js'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Javascript helpers functions</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/print/' class='card-header-title' title='Print'>
+        <i class='fa-solid fa-print'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Print</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/error404/' class='card-header-title' title='404'>
+        <i class='fa-solid fa-circle-xmark'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>404</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/qrcode/' class='card-header-title' title='Page QR code'>
+        <i class='fa-solid fa-qrcode'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Page QR code</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/functionalities/banner/' class='card-header-title' title='Banner'>
+        <i class='fa-solid fa-bullhorn'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Banner</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/banner/global/' class='card-header-title' title='Global banner'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Global banner</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/banner/single/' class='card-header-title' title='Single banner'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Single banner</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/functionalities/versionning/' class='card-header-title' title='Versionning'>
+        <i class='fa-solid fa-timeline'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>Versionning</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/shortcodes/' class='card-header-title'>
+        <i class='fa-solid fa-file-code fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/shortcodes/' class='card-header-title' title='Shortcodes'>
+        <i class='fa-solid fa-file-code fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>Shortcodes</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/alert/' class='card-header-title' title='{{&lt; alert &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; alert &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/asyncapi/' class='card-header-title' title='{{&lt; asyncapi &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; asyncapi &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/blockquote/' class='card-header-title' title='{{&lt; blockquote &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; blockquote &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/collapsible/' class='card-header-title' title='{{&lt; collapsible &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; collapsible &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/highcharts/' class='card-header-title' title='{{&lt; highcharts &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; highcharts &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/intro/' class='card-header-title' title='{{&lt; intro &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; intro &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/md/' class='card-header-title' title='{{&lt; md &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; md &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/openapi/' class='card-header-title' title='{{&lt; openapi &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; openapi &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/pagebreak/' class='card-header-title' title='{{&lt; pagebreak &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; pagebreak &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/parameter/' class='card-header-title' title='{{&lt; parameter &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; parameter &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/plaintext/' class='card-header-title' title='{{&lt; plaintext &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; plaintext &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/snippet/' class='card-header-title' title='{{&lt; snippet &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; snippet &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/shortcodes/treeview/' class='card-header-title' title='{{&lt; treeview &gt;}}'>
+        <i class='fa-solid fa-turn-up fa-rotate-90 fa-xs'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>{{&lt; treeview &gt;}}</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon'>
+        
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/sitemap/' class='card-header-title'>
+        <i class='fa-solid fa-sitemap fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/sitemap/' class='card-header-title' title='Sitemap'>
+        <i class='fa-solid fa-sitemap fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>Sitemap</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+        </ul>
+      </aside>
+    </div>
+    <div id='sidebarCollapsible' class='is-marginless'>
+      <div class='card is-uncollapse-action'>
+        <div id='sidebarUncollapse' class='card-header is-single-link' title='Collapse/Uncollapse sidebar'>
+          <a class='card-header-title'>
+            <i class='fa-solid fa-angles-right fa-lg'></i>
+          </a>
+        </div>
+      </div>
+      <div class='card is-collapse-action'>
+        <div id='sidebarCollapse' class='card-header is-single-link' title='Collapse/Uncollapse sidebar'>
+          <a class='card-header-title'>
+            <i class='fa-solid fa-angles-left fa-lg'></i>
+            <p>Collapse sidebar</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='sidebarMobileWrapper' class='column is-narrow is-hidden-desktop'>
+</div>
+        
+
+
+  
+
+<div class='columns is-mobile is-marginless is-scroll-smooth has-toc' id='contentContainer'>
+  <div class='column' id='content'>
+    
+    
+      <div id='contentTitle'>Installation: Introduction</div>
+    
+    <h1 id='version-management'>
+  Version management
+  <a href='#version-management' class='anchor'>#</a>
+</h1><hr>
+<h2 id='assets-used-in-the-theme'>
+  Assets used in the theme
+  <a href='#assets-used-in-the-theme' class='anchor'>#</a>
+</h2><table>
+<thead>
+<tr>
+<th>Asset</th>
+<th>Minimum version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+
+<a href='https://gohugo.io/' class='is-pretty-link'>Hugo (Extended version)</a></td>
+<td>
+
+
+
+  
+    
+    
+  
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+  <div class='sc-parameter'>
+    
+  
+  
+  
+    
+      <div><a href='https://github.com/gohugoio/hugo/releases/tag/v0.91.0' class='is-pretty-link'>0.91.0</a></div>
+    
+  
+
+  </div>
+
+
+
+</td>
+</tr>
+<tr>
+<td>
+
+<a href='https://bulma.io/' class='is-pretty-link'>Bulma</a></td>
+<td>
+
+
+
+  
+    
+    
+  
+
+
+  
+    
+      
+    
+  
+    
+      
+    
+  
+
+
+  <div class='sc-parameter'>
+    
+  
+  
+  
+    
+      <div><a href='https://github.com/jgthms/bulma/releases/tag/0.9.3' class='is-pretty-link'>0.9.3</a></div>
+    
+  
+
+  </div>
+
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sc-alert sc-alert-info'>
+  
+  Several other assets are used in Shadocs. Versions can be found within the <em>.bmycconfig.json</em> file and assets are automatically updated using the 
+
+<a href='https://github.com/jgazeau/bmyc#bump-me-if-you-can-bmyc' class='is-pretty-link'>Bmyc</a> library.
+</div>
+<h1 id='installation'>
+  Installation
+  <a href='#installation' class='anchor'>#</a>
+</h1><hr>
+<h2 id='hugo-website-creation'>
+  Hugo website creation
+  <a href='#hugo-website-creation' class='anchor'>#</a>
+</h2><p>To create a Hugo website, the Hugo documentation provides a complete 
+
+<a href='https://gohugo.io/getting-started/quick-start/' class='is-pretty-link'>Quickstart</a> which includes all the necessary steps to easily and quickly create a Hugo website.</p>
+<h2 id='adding-the-theme'>
+  Adding the theme
+  <a href='#adding-the-theme' class='anchor'>#</a>
+</h2><ol>
+<li>
+<p>To add and use the Shadocs theme with a Hugo website, use one of the following possibilities:</p>
+<ul>
+<li>Add the theme as a Git submodule to the website project (Recommended method)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-Bash" data-lang="Bash"><span style="display:flex;"><span>cd <span style="color:#e6db74">${</span>PROJECT_DIRECTORY<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/jgazeau/shadocs.git themes/shadocs
+</span></span><span style="display:flex;"><span>git submodule update --init --recursive
+</span></span></code></pre></div></li>
+<li>Download the 
+
+<a href='https://github.com/jgazeau/shadocs/releases' class='is-pretty-link'>theme sources</a> and add them to the website project in the <code>themes/shadocs</code> directory</li>
+</ul>
+</li>
+<li>
+<p>Add the theme to the website configuration file:
+
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+  
+
+
+  
+  
+  <div class='sc-snippet-wrapper'>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  <div class='sc-snippet-container'>
+    
+      <div class='sc-snippet'>
+        <div class='sc-snippet-caption'>config.toml</div>
+        
+  
+    <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[...]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;shadocs&#34;</span>
+</span></span><span style="display:flex;"><span>[...]
+</span></span></code></pre></div>
+  
+
+      </div>
+    
+  </div>
+
+  
+  </div>
+
+
+
+</p>
+</li>
+</ol>
+
+  </div>
+  
+    <div class='column is-sticky is-paddingless' id='tocWrapper'>
+  <div class='is-paddingless' id='tocContainer'>
+    <div class='toc-header'>
+      <h6 class='toc-title is-marginless'>On this page:</h6>
+      <i title='Back to top' id='tocBackToTop' class='fa-solid fa-circle-arrow-up'></i>
+    </div>
+    <div id='tocContent'>
+      <div id='toc'>
+        
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#version-management">Version management</a>
+      <ul>
+        <li><a href="#assets-used-in-the-theme">Assets used in the theme</a></li>
+      </ul>
+    </li>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#hugo-website-creation">Hugo website creation</a></li>
+        <li><a href="#adding-the-theme">Adding the theme</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        
+      </div>
+      <div id='taxonomies'><div class='taxonomy-wrapper'><div class='toc-header'>
+                  <h6 class='toc-title is-marginless'>Categories</h6>
+                </div><a href='/categories/theme/' class='taxonomy'><i class="fa-solid fa-circle-dot"></i>Theme</a></div><div class='taxonomy-wrapper'><div class='toc-header'>
+                  <h6 class='toc-title is-marginless'>Tags</h6>
+                </div><a href='/tags/configuration/' class='taxonomy'><i class="fa-solid fa-circle-dot"></i>Configuration</a></div></div>
+    </div>
+  </div>
+  <div class='is-paddingless' id='tocCollapsible' title='Collapse/Uncollapse table of contents'>
+    <i class='fa-solid fa-angles-right fa-lg'></i>
+  </div>
+</div>
+  
+</div>
+      </div>
+    </section>
+    <script type='text/javascript'>
+  const baseUrl = 'https:\/\/example.com';
+  const codeCopyBefore = 'Copy to clipboard';
+  const codeCopyAfter = 'Copied to clipboard';
+  const svgDownloadLabel = 'Download as SVG';
+  const helperLoadingLabel = 'Loading';
+  const searchNoResults = 'No result found';
+  const introNextLabel = 'Next';
+  const introPrevLabel = 'Previous';
+  const introSkipLabel = '✗';
+  const introDoneLabel = 'Done';
+  const printLabel = 'Print current page';
+  const qrCodeLabel = 'Get current page QR code';
+  const naCommonLabel = 'Not available';
+</script>
+
+
+
+  
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+      
+    
+    <script type='module' src='/js/theme/modules/const.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/modules/helpers.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/modules/helpersGlobal.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/init.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/navbar.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/print.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/qrcode.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/search.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/shortcuts.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/sidebar.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/toc.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/external/overlay-scrollbars/OverlayScrollbars.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/shortcuts.min.js'></script>
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+      
+    
+    <script type='text/javascript' src='/js/theme/browserCompatibility.min.js'></script>
+  
+    
+      
+    
+    <script type='text/javascript' src='/js/external/flexsearch/flexsearch.bundle.min.js'></script>
+  
+    
+      
+    
+    <script type='text/javascript' src='/js/external/qrious/qrious.min.js'></script>
+  
+
+
+
+
+
+    
+  </body>
+</html>

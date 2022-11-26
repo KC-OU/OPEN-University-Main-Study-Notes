@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sidebar on Shadocs theme documentation</title>
+    <link>https://example.com/functionalities/sidebar/</link>
+    <description>Recent content in Sidebar on Shadocs theme documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/functionalities/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple page</title>
+      <link>https://example.com/functionalities/sidebar/simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/simple_page/</guid>
+      <description>Description#A content page is defined as follows:
+*.md page located in a folder containing at least one section definition page (_index.md) Section
+_index.md
+simple_page.md</description>
+    </item>
+    
+    <item>
+      <title>Single page with icon</title>
+      <link>https://example.com/functionalities/sidebar/icon_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/functionalities/sidebar/icon_simple_page/</guid>
+      <description>Description#A content section or page can be identified using an icon from the FontAwesome library in order to ease navigation.
+Two possible parametrization (with the several FontAwesome classes for each parameter value):
+standard parametrization using the default theme configuration per-page parametrization using the titleIcon variable in front matter Standard parametrization#themeParams.toml... [sidebar] # FontAwesome classes associated with the default icon of the home page homeSectionIconDefault = &amp;#34;fa-solid fa-house-chimney&amp;#34; # FontAwesome classes associated with the default icon of the first level sections/pages firstSectionIconDefault = &amp;#34;fa-solid fa-ban&amp;#34; # FontAwesome classes associated with the default icon for 1+ level sections/pages nestedSectionIconDefault = &amp;#34;fa-solid fa-turn-up fa-rotate-90 fa-xs&amp;#34; .</description>
+    </item>
+    
+  </channel>
+</rss>

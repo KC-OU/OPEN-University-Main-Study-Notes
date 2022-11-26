@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Documentation du thème Shadocs</title>
+    <link>https://example.com/fr/categories/</link>
+    <description>Recent content in Categories on Documentation du thème Shadocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Divers</title>
+      <link>https://example.com/fr/categories/divers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/categories/divers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fonctionnalités</title>
+      <link>https://example.com/fr/categories/fonctionnalit%C3%A9s/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/categories/fonctionnalit%C3%A9s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/fr/categories/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/categories/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcode</title>
+      <link>https://example.com/fr/categories/shortcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/categories/shortcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thème</title>
+      <link>https://example.com/fr/categories/th%C3%A8me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/fr/categories/th%C3%A8me/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

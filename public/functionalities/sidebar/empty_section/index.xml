@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Empty section on Shadocs theme documentation</title>
+    <link>https://example.com/functionalities/sidebar/empty_section/</link>
+    <description>Recent content in Empty section on Shadocs theme documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/functionalities/sidebar/empty_section/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
