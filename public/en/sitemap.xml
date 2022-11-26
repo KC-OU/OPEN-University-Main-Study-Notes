@@ -3,6 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -15,6 +16,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/empty_section/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -27,6 +29,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/banner/global/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -39,6 +42,7 @@
                 />
   </url><url>
     <loc>https://example.com/theme/introduction/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -51,6 +55,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -63,6 +68,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/disabled_section/simple_section_page_disabled/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -75,6 +81,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page1/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -87,6 +94,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section/simple_section_page/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -99,6 +107,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/toc/toc_disabled/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -111,6 +120,7 @@
                 />
   </url><url>
     <loc>https://example.com/theme/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -123,6 +133,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/title/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -135,6 +146,7 @@
                 />
   </url><url>
     <loc>https://example.com/theme/configuration/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -147,6 +159,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -159,6 +172,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/horizontal_rule/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -171,6 +185,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/multilingual/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -183,6 +198,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -195,6 +211,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page2/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -207,6 +224,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/banner/single/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -219,6 +237,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -231,6 +250,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/disabled_section/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -243,6 +263,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -255,6 +276,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/paragraph/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -267,6 +289,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section_sorted_pages/simple_page3/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -279,6 +302,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/taxonomies/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -291,6 +315,7 @@
                 />
   </url><url>
     <loc>https://example.com/theme/beyond/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -303,6 +328,7 @@
                 />
   </url><url>
     <loc>https://example.com/theme/contribute/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -315,6 +341,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section_disabled_pages/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -327,6 +354,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/line_break/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -339,6 +367,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -351,6 +380,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/toc/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -363,6 +393,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/emphasis/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -375,6 +406,7 @@
                 />
   </url><url>
     <loc>https://example.com/sitemap/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -387,6 +419,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/section_sorted_pages/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -399,6 +432,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/thirdparty_imports/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -411,6 +445,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/blockquote/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -423,6 +458,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/search/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -435,6 +471,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/simple_page/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -447,6 +484,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/list/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -459,6 +497,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/mermaid/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -471,6 +510,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/sidebar/icon_simple_page/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -483,6 +523,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/code/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -495,6 +536,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/shortcuts/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -507,6 +549,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/helpers_js/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -519,6 +562,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/link/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -531,6 +575,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/image/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -543,6 +588,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/print/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -555,6 +601,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/error404/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -567,6 +614,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/table/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -579,6 +627,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/footnotes/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -591,6 +640,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/qrcode/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -603,6 +653,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/banner/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -615,6 +666,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/emoji/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -627,6 +679,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/escaping_character/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -639,6 +692,7 @@
                 />
   </url><url>
     <loc>https://example.com/functionalities/versionning/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -651,6 +705,7 @@
                 />
   </url><url>
     <loc>https://example.com/markdown/commentary/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -663,6 +718,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/alert/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -675,6 +731,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/asyncapi/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -687,6 +744,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/blockquote/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -699,6 +757,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/collapsible/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -711,6 +770,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/highcharts/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -723,6 +783,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/intro/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -735,6 +796,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/md/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -747,6 +809,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/openapi/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -759,6 +822,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/pagebreak/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -771,6 +835,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/parameter/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -783,6 +848,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/plaintext/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -795,6 +861,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/snippet/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -807,6 +874,7 @@
                 />
   </url><url>
     <loc>https://example.com/shortcodes/treeview/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -819,6 +887,7 @@
                 />
   </url><url>
     <loc>https://example.com/categories/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -831,6 +900,7 @@
                 />
   </url><url>
     <loc>https://example.com/tags/configuration/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -843,10 +913,13 @@
                 />
   </url><url>
     <loc>https://example.com/tags/content-management/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/functionalities/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/markdown/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -859,8 +932,10 @@
                 />
   </url><url>
     <loc>https://example.com/categories/miscellaneous/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
   </url><url>
     <loc>https://example.com/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -873,6 +948,7 @@
                 />
   </url><url>
     <loc>https://example.com/categories/shortcode/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -885,6 +961,7 @@
                 />
   </url><url>
     <loc>https://example.com/tags/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -897,5 +974,6 @@
                 />
   </url><url>
     <loc>https://example.com/categories/theme/</loc>
+    <lastmod>2022-11-26T21:31:38+00:00</lastmod>
   </url>
 </urlset>
