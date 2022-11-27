@@ -1,0 +1,1992 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+<meta name="generator" content="Hugo 0.107.0">
+
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='MU123 - Discovering Mathematics - Study Notes'>
+
+<title>MU123 - Discovering Mathematics - Study Notes | Kieran Collins OU Study Notes</title>
+
+<link rel='icon' href='/images/favicon.png' type='image/x-icon'>
+
+    
+
+
+  
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <link rel='stylesheet' rel='preload' type='text/css' href='/css/main.css'>
+
+
+
+
+
+  
+
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  
+  
+  
+    
+      
+    
+    <link rel='stylesheet' type='text/css' href='/css/external/fontawesome.all.min.css'>
+  
+    
+      
+    
+    <link rel='stylesheet' type='text/css' href='/css/external/overlay-scrollbars/OverlayScrollbars.min.css'>
+  
+    
+      
+    
+    <link rel='stylesheet' type='text/css' href='/css/shortcuts.min.css'>
+  
+
+
+
+
+
+
+    
+  </head>
+  <body onload='browserCompatibility()'>
+    <section>
+      <div id='navbarInfo' class='is-hidden modal-container'>
+  <div class='modal-content-box modal-text-box'>
+    <div class='card modal-title is-radiusless'>
+      <div class='card-header'>
+        <p class='card-header-title is-marginless'>
+          About
+        </p>
+      </div>
+    </div>
+    <div class='modal-content-container'>
+      <div class='modal-content-block is-block'>
+        
+<div class='columns is-marginless is-multiline is-centered'>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs' target='_blank'>
+      <div>
+        <i class='fa-brands fa-github fa-2x'></i>
+        <p>GitHub repository</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs/archive/main.zip' target='_blank'>
+      <div>
+        <i class='fa-solid fa-download fa-2x'></i>
+        <p>Download</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs/issues' target='_blank'>
+      <div>
+        <i class='fa-solid fa-circle-info fa-2x'></i>
+        <p>Report an issue</p>
+      </div>
+    </a>
+  </div>
+  <div class='column'>
+    <a class='is-itext-link' href='https://github.com/jgazeau/shadocs/fork' target='_blank'>
+      <div>
+        <i class='fa-solid fa-code-branch fa-2x'></i>
+        <p>Fork</p>
+      </div>
+    </a>
+  </div>
+</div>
+<p>Website built with 
+
+<a href='https://gohugo.io/' class='is-pretty-link'>Hugo</a> (0.107.0)</p>
+<p>The MIT License (MIT) Copyright © 2022 Kieran Collins ()</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div id='navbarShortcuts' class='is-hidden modal-container'>
+  <div class='modal-content-box modal-text-box'>
+    
+      
+    
+    
+      
+    
+    
+      <div class='card modal-title is-radiusless'>
+        <div class='card-header'>
+          <p class='card-header-title is-marginless'>
+            Keyboard shortcuts
+          </p>
+        </div>
+      </div>
+      <div class='modal-content-container'>
+        <div class='modal-content-block'>
+          
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>q</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Get current page QR code</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Escape</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Close modals</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>i</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Show website information</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>k</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Show shortcuts</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>h</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Go to homepage</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>f</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Find on website</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>m</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Collapse/Uncollapse sidebar</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>t</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Collapse/Uncollapse toc</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>↑</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Go to the top of the page</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>↓</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Go to the bottom of the page</p>
+  </div>
+
+              
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>p</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Print current page</p>
+  </div>
+
+              
+            
+          
+          
+            
+  
+  
+  
+  
+    
+  
+  
+    
+  
+  <div class='modal-content'>
+    
+      
+      <kbd>Shift</kbd>
+    
+      
+        <p>+</p>
+      
+      <kbd>1</kbd>
+    
+  </div>
+  <div class='modal-content'>
+    <p class='has-text-weight-normal'>Display a shortcut example</p>
+  </div>
+
+              
+            
+          
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+<div id='modalContainer' class='is-hidden modal-container'>
+  <div id='modal' class='modal-content-box'></div>
+</div>
+<nav id='navbar' class='navbar' role='navigation' aria-label='main navigation'>
+  <div id='navbarItemsContainer' class='navbar-brand'>
+    <div id='globalLogoContainer' class='is-flex'>
+  <a id='globalLogo' class='navbar-item navbar-item-standard is-paddingless' href='/'>
+    <img alt='Homepage' src='/images/logo.png'>
+  </a>
+  <a id='globalTouchLogo' class='navbar-item navbar-item-standard is-paddingless' href='/'>
+    <img alt='Homepage' src='/images/logoTouch.png'>
+  </a>
+</div>
+    <div id='navbarItems' class='is-flex'>
+      <div id='navbarItemsStart' class='is-flex'>
+        <div id='searchContainer' class='navbar-item'>
+          <div class='control has-icons-left'>
+  <span id='searchInput' class='autocomplete'>
+    <input id='search' autocomplete='off' class='input' type='search' placeholder='Search'>
+  </span>
+  <span class='icon is-left'>
+    <i class='fa-solid fa-magnifying-glass'></i>
+  </span>
+  <ul id='searchList' class='is-paddingless is-hidden'></ul>
+</div>
+        </div>
+      </div>
+      <div id='navbarItemsEnd' class='is-flex is-invisible'>
+        
+        <div class='navbar-item'>
+  <a id='printButton' class='button navbar-item-standard'>
+    <span class='icon-text'>Print</span>
+    <span class='icon'>
+      <i class='fa-solid fa-print fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='qrCodeButton' class='button navbar-item-standard'>
+    <span class='icon-text'>QR code</span>
+    <span class='icon'>
+      <i class='fa-solid fa-qrcode fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='shortcutsInfo' trigger='navbarShortcuts' class='button navbar-item-standard navbar-trigger' title='Keyboard shortcuts'>
+    <span class='icon-text'>Shortcuts</span>
+    <span class='icon'>
+      <i class='fa-solid fa-keyboard fa-lg'></i>
+    </span>
+  </a>
+</div>
+
+  
+
+  
+
+
+  <div class='navbar-item'>
+    <div id='taxonomiesSelectorContainer' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='taxonomiesSelector' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Taxonomies</span>
+      <span class='icon'>
+        <i class='fa-solid fa-tags fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-taxonomies' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+        
+          
+          
+            <a href='/categories/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-table-cells'></i>
+                
+              
+              Categories
+            </a>
+          
+        
+      
+        
+          
+          
+            <a href='/tags/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-tag'></i>
+                
+              
+              Tags
+            </a>
+          
+        
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+
+
+  <div class='navbar-item'>
+    <div id='versionsSelectorContainer' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='versionsSelector' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Versions</span>
+      <span class='icon'>
+        <i class='fa-solid fa-arrow-down-9-1 fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-versions' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+          <a href='https://website.mianitianoustudy.com/' class='dropdown-item has-text-weight-bold'>
+            latest
+          </a>
+      
+          <a href='https://website.mianitianoustudy.com/404.html' class='dropdown-item has-text-weight-bold'>
+            deprecated version
+          </a>
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+<div class='navbar-item'>
+  <a id='siteInfo' trigger='navbarInfo' class='button navbar-item-standard navbar-trigger' title='About'>
+    <span class='icon-text'>About</span>
+    <span class='icon'>
+      <i class='fa-solid fa-circle-question fa-lg'></i>
+    </span>
+  </a>
+</div>
+        <div id='navbarExtend' class='navbar-item'>
+  <div id='navbarExtendWrapper'>
+    <a id='navbarExtendButton' class='button navbar-item-standard'>
+      <span class='icon'>
+        <i class='fa-solid fa-ellipsis fa-lg'></i>
+      </span>
+    </a>
+    <div id='navbarExtendItemsContainer'>
+      <div id='navbarExtendItemsWrapper'>
+        
+        <div class='navbar-item'>
+  <a id='printButtonExtend' class='button navbar-item-standard'>
+    <span class='icon-text'>Print</span>
+    <span class='icon'>
+      <i class='fa-solid fa-print fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='qrCodeButtonExtend' class='button navbar-item-standard'>
+    <span class='icon-text'>QR code</span>
+    <span class='icon'>
+      <i class='fa-solid fa-qrcode fa-lg'></i>
+    </span>
+  </a>
+</div>
+<div class='navbar-item'>
+  <a id='shortcutsInfoExtend' trigger='navbarShortcuts' class='button navbar-item-standard navbar-trigger' title='Keyboard shortcuts'>
+    <span class='icon-text'>Shortcuts</span>
+    <span class='icon'>
+      <i class='fa-solid fa-keyboard fa-lg'></i>
+    </span>
+  </a>
+</div>
+
+  
+
+  
+
+
+  <div class='navbar-item'>
+    <div id='taxonomiesSelectorContainerExtend' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='taxonomiesSelectorExtend' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Taxonomies</span>
+      <span class='icon'>
+        <i class='fa-solid fa-tags fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-taxonomiesExtend' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+        
+          
+          
+            <a href='/categories/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-table-cells'></i>
+                
+              
+              Categories
+            </a>
+          
+        
+      
+        
+          
+          
+            <a href='/tags/' class='dropdown-item has-text-weight-bold'>
+              
+                
+                  <i class='fa-solid fa-tag'></i>
+                
+              
+              Tags
+            </a>
+          
+        
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+
+
+  <div class='navbar-item'>
+    <div id='versionsSelectorContainerExtend' class='dropdown is-right'>
+  <div class='dropdown-trigger'>
+    <button id='versionsSelectorExtend' class='button navbar-item-standard' aria-haspopup='true' aria-controls='dropdown-menu'>
+      <span class='icon-text'>Versions</span>
+      <span class='icon'>
+        <i class='fa-solid fa-arrow-down-9-1 fa-lg'></i>
+      </span>
+    </button>
+  </div>
+  <div id='dropdown-menu-versionsExtend' class='dropdown-menu' role='menu'>
+    <div class='dropdown-content is-paddingless'>
+      
+          <a href='https://website.mianitianoustudy.com/' class='dropdown-item has-text-weight-bold'>
+            latest
+          </a>
+      
+          <a href='https://website.mianitianoustudy.com/404.html' class='dropdown-item has-text-weight-bold'>
+            deprecated version
+          </a>
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+<div class='navbar-item'>
+  <a id='siteInfoExtend' trigger='navbarInfo' class='button navbar-item-standard navbar-trigger' title='About'>
+    <span class='icon-text'>About</span>
+    <span class='icon'>
+      <i class='fa-solid fa-circle-question fa-lg'></i>
+    </span>
+  </a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id='navbarOverlay'></div>
+      <div class='columns is-mobile is-paddingless is-marginless' id='mainContainer'>
+        <div id='sidebarContainer' class='column is-narrow is-paddingless is-marginless'>
+  <div id='sidebarWrapper' class='is-fixed'>
+    <div id='sidebar' class='is-marginless'>
+      <aside class='menu is-paddingless is-marginless'>
+        <ul class='menu-list is-marginless is-paddingless'>
+          
+
+  
+  
+  
+  
+    
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon is-sidebar-active'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/mu123-discovering-mathematics/' class='card-header-title'>
+        <i class='fa-solid fa-calculator fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-tree-active is-entries-expandable is-entries-expanded'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/mu123-discovering-mathematics/' class='card-header-title' title='MU123 - Discovering Mathematics'>
+        <i class='fa-solid fa-calculator fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>MU123 - Discovering Mathematics</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-expanded'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless is-tree-active'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/mu123-discovering-mathematics/assignments/' class='card-header-title' title='MU123 - Discovering Mathematics - Assigments'>
+        <i class='fa-solid fa-file-lines'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics - Assigments</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/mu123-discovering-mathematics/assignments/tma01/' class='card-header-title' title='MU123 - Discovering Mathematics -TMA 01'>
+        <i class='fa-solid fa-pen'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics -TMA 01</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-expanded'>
+          <div class='card is-sidebar-active' id='sidebarActiveEntry'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/mu123-discovering-mathematics/study-notes/' class='card-header-title' title='MU123 - Discovering Mathematics - Study Notes'>
+        <i class='fa-solid fa-pen-nib'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics - Study Notes</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/mu123-discovering-mathematics/study-notes/book-a/' class='card-header-title' title='MU123 - Discovering Mathematics'>
+        <i class='fa-solid fa-calculator'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/mu123-discovering-mathematics/study-notes/book-b/' class='card-header-title' title='MU123 - Discovering Mathematics'>
+        <i class='fa-solid fa-calculator'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/mu123-discovering-mathematics/study-notes/book-c/' class='card-header-title' title='MU123 - Discovering Mathematics'>
+        <i class='fa-solid fa-calculator'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/mu123-discovering-mathematics/study-notes/book-d/' class='card-header-title' title='MU123 - Discovering Mathematics'>
+        <i class='fa-solid fa-calculator'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>MU123 - Discovering Mathematics</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/tm111-introduction-to-computing-and-infomation/' class='card-header-title'>
+        <i class='fa-solid fa-pen-nib fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/tm111-introduction-to-computing-and-infomation/' class='card-header-title' title='TM111 - Introduction to Computing and Infomation - Study Notes'>
+        <i class='fa-solid fa-pen-nib fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>TM111 - Introduction to Computing and Infomation - Study Notes</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/tm111-introduction-to-computing-and-infomation/assignments/' class='card-header-title' title='TM111 - Introduction to Computing and Infomation - Assignments'>
+        <i class='fa-solid fa-lines'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>TM111 - Introduction to Computing and Infomation - Assignments</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/tm111-introduction-to-computing-and-infomation/assignments/tma-01/' class='card-header-title' title='TM111 - Introduction to Computing and Infomation - TMA01'>
+        <i class='fa-solid fa-pen'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>TM111 - Introduction to Computing and Infomation - TMA01</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      <div class='card is-fs-expandable-icon'>
+        
+  
+  
+    <div class='card-header'>
+      <a href='/tm129-technolgies-in-practice/' class='card-header-title'>
+        <i class='fa-solid fa-server fa-lg'></i>
+        
+      </a>
+  
+
+        </div>
+      </div>
+    
+    <div class='is-expandable'>
+      <div class='is-sidebar-list-wrapper'>
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/tm129-technolgies-in-practice/' class='card-header-title' title='TM129 - Technolgies in Practice'>
+        <i class='fa-solid fa-server fa-lg'></i>
+        <p class='pt-0 pb-0 pr-2 pl-1'>TM129 - Technolgies in Practice</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/tm129-technolgies-in-practice/assignments/' class='card-header-title' title='TM129 - Technolgies in Practice - Assignments'>
+        <i class='fa-solid fa-file-lines'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>TM129 - Technolgies in Practice - Assignments</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/tm129-technolgies-in-practice/assignments/tma01/' class='card-header-title' title='TM129 - Technolgies in Practice - TMA 01'>
+        <i class='fa-solid fa-pen'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>TM129 - Technolgies in Practice - TMA 01</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless is-entries-expandable is-entries-shrinked'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header'>
+      <a href='/tm129-technolgies-in-practice/study-notes/' class='card-header-title' title='TM129 - Technolgies in Practice - Study Notes'>
+        <i class='fa-solid fa-pen-nib'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>TM129 - Technolgies in Practice - Study Notes</p>
+      </a>
+  
+
+            
+                <a class='card-header-icon is-icon-expandable is-paddingless is-icon-shrinked'>
+                  <span class='icon'></span>
+                </a>
+            </div>
+          </div>
+          <ul class='is-marginless'>
+            
+              
+            
+            
+            
+              
+  
+  
+  
+    
+  
+  
+    
+      
+    
+    
+      
+      
+        
+          
+        
+      
+    
+    
+    
+      
+    
+    
+    
+    <div >
+      <div >
+        <li class='is-marginless'>
+          <div class='card'>
+            
+  
+  
+    <div class='card-header is-single-link'>
+      <a href='/tm129-technolgies-in-practice/study-notes/cisco/' class='card-header-title' title='TM129 - Technolgies in Practice - CISCO'>
+        <i class='fa-solid fa-server'></i>
+        <p class='pt-0 pb-0 pr-2 pl-0'>TM129 - Technolgies in Practice - CISCO</p>
+      </a>
+  
+
+            
+            </div>
+          </div>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+            
+          </ul>
+          
+        </li>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+        </ul>
+      </aside>
+    </div>
+    <div id='sidebarCollapsible' class='is-marginless'>
+      <div class='card is-uncollapse-action'>
+        <div id='sidebarUncollapse' class='card-header is-single-link' title='Collapse/Uncollapse sidebar'>
+          <a class='card-header-title'>
+            <i class='fa-solid fa-angles-right fa-lg'></i>
+          </a>
+        </div>
+      </div>
+      <div class='card is-collapse-action'>
+        <div id='sidebarCollapse' class='card-header is-single-link' title='Collapse/Uncollapse sidebar'>
+          <a class='card-header-title'>
+            <i class='fa-solid fa-angles-left fa-lg'></i>
+            <p>Collapse sidebar</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='sidebarMobileWrapper' class='column is-narrow is-hidden-desktop'>
+</div>
+        
+
+
+  
+
+<div class='columns is-mobile is-marginless is-scroll-smooth has-toc' id='contentContainer'>
+  <div class='column' id='content'>
+    
+    
+      <div id='contentTitle'>MU123 - Discovering Mathematics - Study Notes</div>
+    
+    <hr>
+<p>
+  
+
+
+
+  
+    
+  
+
+<div class='sc-treeview'>
+  
+    
+      
+  
+  
+    
+      
+    
+  
+  
+    <ul class='sc-treeview-tree'>
+    
+      
+        
+          
+        
+      
+      <li >
+        <div class='sc-treeview-label'>
+          
+          <div class='sc-treeview-icon'>
+            <i class='fa-solid fa-calculator'></i>
+          </div>
+          
+          <p class='is-marginless'><a href='/mu123-discovering-mathematics/study-notes/book-a/' class='is-pretty-link'>MU123 - Discovering Mathematics</a></p>
+        </div>
+        
+      </li>
+    
+      
+        
+          
+        
+      
+      <li >
+        <div class='sc-treeview-label'>
+          
+          <div class='sc-treeview-icon'>
+            <i class='fa-solid fa-calculator'></i>
+          </div>
+          
+          <p class='is-marginless'><a href='/mu123-discovering-mathematics/study-notes/book-b/' class='is-pretty-link'>MU123 - Discovering Mathematics</a></p>
+        </div>
+        
+      </li>
+    
+      
+        
+          
+        
+      
+      <li >
+        <div class='sc-treeview-label'>
+          
+          <div class='sc-treeview-icon'>
+            <i class='fa-solid fa-calculator'></i>
+          </div>
+          
+          <p class='is-marginless'><a href='/mu123-discovering-mathematics/study-notes/book-c/' class='is-pretty-link'>MU123 - Discovering Mathematics</a></p>
+        </div>
+        
+      </li>
+    
+      
+        
+          
+        
+      
+      <li >
+        <div class='sc-treeview-label'>
+          
+          <div class='sc-treeview-icon'>
+            <i class='fa-solid fa-calculator'></i>
+          </div>
+          
+          <p class='is-marginless'><a href='/mu123-discovering-mathematics/study-notes/book-d/' class='is-pretty-link'>MU123 - Discovering Mathematics</a></p>
+        </div>
+        
+      </li>
+    
+    </ul>
+  
+
+    
+  
+</div>
+
+
+
+hu</p>
+
+  </div>
+  
+    <div class='column is-sticky is-paddingless' id='tocWrapper'>
+  <div class='is-paddingless' id='tocContainer'>
+    <div class='toc-header'>
+      <h6 class='toc-title is-marginless'>On this page:</h6>
+      <i title='Back to top' id='tocBackToTop' class='fa-solid fa-circle-arrow-up'></i>
+    </div>
+    <div id='tocContent'>
+      <div id='toc'>
+        
+          <nav id="TableOfContents">
+            <p><strong>No data available</strong></p>
+          </nav>
+        
+      </div>
+      <div id='taxonomies'><div class='taxonomy-wrapper'><div class='toc-header'>
+                  <h6 class='toc-title is-marginless'>Categories</h6>
+                </div><a href='/categories/mu123/' class='taxonomy'><i class="fa-solid fa-circle-dot"></i>MU123</a></div><div class='taxonomy-wrapper'><div class='toc-header'>
+                  <h6 class='toc-title is-marginless'>Tags</h6>
+                </div><a href='/tags/courses-notes/' class='taxonomy'><i class="fa-solid fa-circle-dot"></i>Courses, Notes</a></div></div>
+    </div>
+  </div>
+  <div class='is-paddingless' id='tocCollapsible' title='Collapse/Uncollapse table of contents'>
+    <i class='fa-solid fa-angles-right fa-lg'></i>
+  </div>
+</div>
+  
+</div>
+      </div>
+    </section>
+    <script type='text/javascript'>
+  const baseUrl = 'https:\/\/website.mianitianoustudy.com';
+  const codeCopyBefore = 'Copy to clipboard';
+  const codeCopyAfter = 'Copied to clipboard';
+  const svgDownloadLabel = 'Download as SVG';
+  const helperLoadingLabel = 'Loading';
+  const searchNoResults = 'No result found';
+  const introNextLabel = 'Next';
+  const introPrevLabel = 'Previous';
+  const introSkipLabel = '✗';
+  const introDoneLabel = 'Done';
+  const printLabel = 'Print current page';
+  const qrCodeLabel = 'Get current page QR code';
+  const naCommonLabel = 'Not available';
+</script>
+
+
+
+  
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+      
+    
+    <script type='module' src='/js/theme/modules/const.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/modules/helpers.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/modules/helpersGlobal.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/init.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/navbar.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/print.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/qrcode.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/search.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/shortcuts.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/sidebar.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/theme/toc.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/external/overlay-scrollbars/OverlayScrollbars.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/shortcuts.min.js'></script>
+  
+    
+      
+    
+    <script type='module' src='/js/shortcodes/treeview.min.js'></script>
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+  
+  
+    
+      
+    
+    <script type='text/javascript' src='/js/theme/browserCompatibility.min.js'></script>
+  
+    
+      
+    
+    <script type='text/javascript' src='/js/external/flexsearch/flexsearch.bundle.min.js'></script>
+  
+    
+      
+    
+    <script type='text/javascript' src='/js/external/qrious/qrious.min.js'></script>
+  
+
+
+
+
+
+    
+  </body>
+</html>
