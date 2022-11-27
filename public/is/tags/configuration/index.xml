@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Kieran Collins OU rannsóknarskýringar</title>
+    <link>https://website.mianitianoustudy.com/is/tags/configuration/</link>
+    <description>Recent content in Configuration on Kieran Collins OU rannsóknarskýringar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/is/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation: Introduction</title>
+      <link>https://website.mianitianoustudy.com/is/theme/introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/theme/introduction/</guid>
+      <description>Gestion des versions#Assets utilisées dans le thème#Application Version minimum Hugo (Extended version) 0.91.0Bulma 0.9.3Plusieurs autres assets sont utilisés dans Shadocs. Leurs versions sont disponibles dans le fichier .bmycconfig.json, et les assets sont automatiquements mis à jour grâce à la librairie Bmyc.Installation#Création d&amp;rsquo;un site Hugo#Pour créer un site Hugo, la documentation Hugo propose un Quickstart complet qui reprend l&amp;rsquo;ensemble des étapes necessaires afin de créer facilement et rapidement un site Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Installation: Configuration</title>
+      <link>https://website.mianitianoustudy.com/is/theme/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/theme/configuration/</guid>
+      <description>Généralités#Pour configurer un site Hugo utilisant le thème, il existe trois type de configuration:
+Type Fichier de configuration Configuration standard Hugo ./config.toml Configuration spécifique par le biais des variables site ./config.toml Configuration par défaut du thème .themes/shadocs/data/themeParams.toml Configuration spécifique#config.toml (section [params])[params] # Chemin des fichiers logo du site logo = &amp;#34;images/logo.png&amp;#34; logoTouch = &amp;#34;images/logoTouch.png&amp;#34; # Chemin du fichier de l&amp;#39;image affichée en cas d&amp;#39;erreur 404 image404 = &amp;#34;images/404.</description>
+    </item>
+    
+    <item>
+      <title>Taxonomies</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/taxonomies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/taxonomies/</guid>
+      <description>Description#Par défaut le thème gère les taxonomies Hugo.
+Un menu situé dans la barre de navigation permet de choisir une taxonomie et de basculer vers la vue des taxonomies, suivant la configuration du site. Toutefois ce menu n&amp;rsquo;apparaitra que si au moins une taxonomy a été configuré sur le site.Associer un logo à une taxonomie#Il est possible d&amp;rsquo;associer un logo à une taxonomie, qui appraitra dans le menu de la barre de navigation, en définissant un paramètre icon comme ci-dessous:</description>
+    </item>
+    
+    <item>
+      <title>Imports tiers</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/thirdparty_imports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/thirdparty_imports/</guid>
+      <description>Description#Par défaut dans le thème, il est possible d&amp;rsquo;importer des librairies ou du code tiers dans la page html générée, en utilisant la configuration du site.
+Les différents types d&amp;rsquo;imports gérés par le thème sont les suivants:
+Type d&amp;rsquo;import Commentaire Fichiers SASS (.sass) Importés dans la balise &amp;lt;head&amp;gt; en tant que &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt; après avoir été convertis en CSS par Hugo, regroupés et minifiés dans un fichier main.</description>
+    </item>
+    
+    <item>
+      <title>Raccourcis</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/shortcuts/</guid>
+      <description>Description#Par défaut des raccourcis clavier sont fournis pour permettre d&amp;rsquo;intéragir plus facilement avec le thème, mais il est possible de définir des raccourcis spécifique par le biais d&amp;rsquo;un minimum de configuration.
+Par exemple, il est possible d&amp;rsquo;obtenir la liste des raccourcis disponibles en utilisant le raccourci Maj + k.
+Définir un raccourci spécifique#Afin de définir un raccourci, il faut suivre le process suivant (exemple avec le raccourci example (Maj + 1) du site du thème):</description>
+    </item>
+    
+    <item>
+      <title>Fonctions d&#39;aide Javascript</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/helpers_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/helpers_js/</guid>
+      <description>Description#Afin de faciliter l&amp;rsquo;utilisation du thème, des fonctions d&amp;rsquo;aide javascripts définies dans le fichier assets/js/theme/modules/helpers.js sont mises à disposition. Ces fonctions sont définies de manières globales à l&amp;rsquo;aide du fichier assets/js/theme/modules/helpersGlobal.js et peuvent donc être appelées depuis n&amp;rsquo;importe quel scope.
+Fonctions d&amp;rsquo;aide javascript#Code Description closeModals(modal); Fonction qui gère la fermeture des fenêtres modales:
+Si renseigné, seul la fenêtre modale définie en entrée est fermée Si aucune entrée, toutes les fenêtres modales sont fermées disableSmoothScroll(); Fonction désactivant le défilement doux du contenu principal.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcode on Kieran Collins OU rannsóknarskýringar</title>
+    <link>https://website.mianitianoustudy.com/is/categories/shortcode/</link>
+    <description>Recent content in Shortcode on Kieran Collins OU rannsóknarskýringar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/is/categories/shortcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shortcodes</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/</guid>
+      <description>Un shortcode, qu’est ce que c’est ?#De manière simple, un shortcode est un fragment de code qui se base sur un template et qu&amp;rsquo;il est possible d&amp;rsquo;utiliser dans le contenu markdown d&amp;rsquo;une page.
+Plus d&amp;rsquo;information sur les shortcodes dans la documentation Hugo.Utilisation#La documentation des shortcodes du thème fournie les informations afin de pouvoir utiliser facilement les différents shortcodes ajoutés par le thème:
+Description du shortcode Paramètres du shortcode décrit sous la forme du tableau suivant: Nom Type(nommé/positionnel) Description Exemples d&amp;rsquo;utilisation Les shortcodes du thème#{{&amp;lt; alert &amp;gt;}}</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; alert &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/alert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/alert/</guid>
+      <description>Description#Le shortcode alert permet de mettre en valeur du texte suivant différents styles.
+Paramètres#Nom Type(nommé/positionnel) Description type nommé Styles disponibles:
+info success warning error NB: Si non renseigné, le style par défaut est info.
+Exemples#Markdown Rendu {{&amp;lt; alert &amp;gt;}}Je suis une alerte de type **info** par défaut{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type info par défaut{{&amp;lt; alerttype=&amp;#34;info&amp;#34;&amp;gt;}}Je suis une alerte de type **info**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type info{{&amp;lt; alerttype=&amp;#34;success&amp;#34;&amp;gt;}}Je suis une alerte de type **success**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type success{{&amp;lt; alerttype=&amp;#34;warning&amp;#34;&amp;gt;}}Je suis une alerte de type **warning**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type warning{{&amp;lt; alerttype=&amp;#34;error&amp;#34;&amp;gt;}}Je suis une alerte de type **error**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type error</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; asyncapi &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/asyncapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/asyncapi/</guid>
+      <description>Description#Le shortcode asyncapi permet d&amp;rsquo;afficher de la documentation AsyncAPI associée à un service.
+Paramètres#Nom Type(nommé/positionnel) Description source nommé Source de la documentation AsyncAPI.
+NB: La source peut-etre définie par un chemin local ou une URL. Exemples#Markdown Rendu {{&amp;lt; asyncapi source=&amp;#34;/asyncapi/example.yaml&amp;#34; &amp;gt;}} Loading{{&amp;lt; asyncapi source=&amp;#34;https://raw.githubusercontent.com/asyncapi/spec/master/examples/simple.yml&amp;#34; &amp;gt;}} Loading</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; blockquote &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/blockquote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/blockquote/</guid>
+      <description>Description#Le shortcode blockquote permet d&amp;rsquo;écrire une citation.
+Paramètres#Nom Type(nommé/positionnel) Description source nommé Source de la citation.
+NB: Si non renseigné, le rendu est celui d&amp;rsquo;une citation standard en markdown. Exemples#Markdown Rendu {{&amp;lt; blockquote &amp;gt;}}Je suis une citation sans source{{&amp;lt; /blockquote &amp;gt;}} Je suis une citation sans source{{&amp;lt; blockquotesource=&amp;#34;Shadocs&amp;#34;&amp;gt;}}Je suis une citation avec source{{&amp;lt; /blockquote &amp;gt;}} Je suis une citation avec source~ Shadocs</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; collapsible &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/collapsible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/collapsible/</guid>
+      <description>Description#Le shortcode collapsible permet d&amp;rsquo;écrire un bloc de texte développable.
+Paramètres#Nom Type(nommé/positionnel) Description title nommé Titre du bloc de texte.
+NB: Si non renseigné, le titre est un texte par défaut défini par le thème. Exemples#Markdown Rendu {{&amp;lt; collapsible &amp;gt;}}Je suis caché{{&amp;lt; /collapsible &amp;gt;}} Expand/CollapseJe suis caché{{&amp;lt; collapsibletitle=&amp;#34;Sésame, ouvre-toi!&amp;#34;&amp;gt;}}Je suis caché{{&amp;lt; /collapsible &amp;gt;}} Sésame, ouvre-toi!Je suis caché</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; highcharts &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/highcharts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/highcharts/</guid>
+      <description>Description#Le shortcode highcharts permet d&amp;rsquo;afficher des graphes Highcharts.
+Paramètres#Nom Type(nommé/positionnel) Description id nommé Id du conteneur Highcharts.
+NB: Cet Id peut être utilisé en tant que paramètre renderTo de la classe Highcharts.Chart. assets nommé Liste séparée par des virgules des assets Highcharts minifiés à charger dans la page.
+NB: Tous les assets minifiés de Highcharts sont inclus dans le thème et disponible dans assets/js/external/highcharts. source nommé Source du graphe Highcharts.</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; intro &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/intro/</guid>
+      <description>Description#Le shortcode intro permet d&amp;rsquo;utiliser la librairie intro.js afin de générer une intro de démonstration.
+Configuration de intro.js#Le contenu du shortcode définit la configuration au format JSON de l&amp;rsquo;intro. De plus, des paramètres ont été ajoutés dans le thème afin de permettre un paramétrage simplifié et adapté.
+Configuration JSON du contenu du shortcode intro{ &amp;#34;[...]&amp;#34;, &amp;#34;[Options standard intro.js]&amp;#34;: &amp;#34;https://introjs.com/docs/intro/options (Cf. liste des options par défaut du thème ci-dessous)&amp;#34;, &amp;#34;[.</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; md &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/md/</guid>
+      <description>Description#Le shortcode md permet de forcer la conversion d&amp;rsquo;un bloc de texte écrit en markdown.
+Ce shortcode est notamment utile pour rajouter du contenu écrit en syntaxes markdown complexes (listes, extrait de code, &amp;hellip;), dans un tableau, ou dans le cas de shortcodes imbriqués. Imbriquer deux shortcode md n&amp;rsquo;est pas possible.Paramètres#Nom Type(nommé/positionnel) Description Exemples#Markdown Rendu {{&amp;lt; md &amp;gt;}}Je suis du texte écrit en **markdown**{{&amp;lt; /md &amp;gt;}} Je suis du texte écrit en markdown | Markdown | Rendu || -------- | ----- ||{{&amp;lt; md &amp;gt;}}```{{&amp;lt; md &amp;gt;}}Je suis du texte écrit en **markdown**{{&amp;lt; /md &amp;gt;}}```{{&amp;lt; /md &amp;gt;}}|{{&amp;lt; md &amp;gt;}}Je suis du texte écrit en **markdown**{{&amp;lt; /md &amp;gt;}} Tableau d&amp;rsquo;exemples sans la ligne courante (Rendu non disponible car deux shortcode md sont imbriqués dans cet exemple) </description>
+    </item>
+    
+    <item>
+      <title>{{&lt; openapi &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/openapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/openapi/</guid>
+      <description>Description#Le shortcode openapi permet d&amp;rsquo;afficher de la documentation OpenAPI associée à un service.
+Paramètres#Nom Type(nommé/positionnel) Description source nommé Source de la documentation OpenAPI.
+NB: La source peut-etre définie par un chemin local ou une URL. Exemples#Markdown Rendu {{&amp;lt; openapi source=&amp;#34;/openapi/example.yaml&amp;#34; &amp;gt;}} Loading{{&amp;lt; openapi source=&amp;#34;https://petstore.swagger.io/v2/swagger.json&amp;#34; &amp;gt;}} Loading</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; pagebreak &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/pagebreak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/pagebreak/</guid>
+      <description>Description#Le shortcode pagebreak permet de définir un saut de page pour l&amp;rsquo;impression.
+Paramètres#Nom Type(nommé/positionnel) Description Exemples#Markdown Rendu {{&amp;lt; pagebreak &amp;gt;}}# Exemples (Rendu non disponible et visible uniquement dans l&amp;rsquo;aperçu impression) </description>
+    </item>
+    
+    <item>
+      <title>{{&lt; parameter &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/parameter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/parameter/</guid>
+      <description>Description#Le shortcode parameter permet d&amp;rsquo;afficher un paramètre du site suivant son type.
+Type Affichage Map (Clé/Valeur) Tableau Liste de String Liste String Texte Le paramètre à afficher peut être déclaré de deux manières différentes:
+Paramètres standard du site (variables .Site.Params), en utilisant le paramètre positionnel du shortcode. Fichier de données spécifique du site, en utilisant le paramètre nommé du shortcode. Le paramètre à afficher est interprété en markdown et converti en conséquence.</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; plaintext &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/plaintext/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/plaintext/</guid>
+      <description>Description#Le shortcode plaintext permet de forcer l&amp;rsquo;affichage du texte brut, sans conversion markdown et échappement des caractères.
+Ce shortcode est notamment utile pour afficher du code HTML, ou du code markdown sans conversion.
+Paramètres#Nom Type(nommé/positionnel) Description Exemples#Markdown Rendu {{&amp;lt; plaintext &amp;gt;}}&amp;lt;p&amp;gt;Je suis du code HTML&amp;lt;/p&amp;gt;{{&amp;lt; /plaintext &amp;gt;}} &amp;lt;p&amp;gt;Je suis du code HTML&amp;lt;/p&amp;gt; {{&amp;lt; plaintext &amp;gt;}}**Je suis du code markdown**{{&amp;lt; /plaintext &amp;gt;}} **Je suis du code markdown** </description>
+    </item>
+    
+    <item>
+      <title>{{&lt; snippet &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/snippet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/snippet/</guid>
+      <description>Description#Le shortcode snippet permet d&amp;rsquo;écrire un fragment de code, défini soit depuis le contenu du shortcode, soit depuis un fichier template.
+De plus, il est possible de définir plusieurs fragments de code répartis dans différents onglets. Pour cela il suffit d&amp;rsquo;imbriquer autant de shortcode tab que d&amp;rsquo;onglet voulu dans un shortcode snippet parent.
+Par exemple: afficher les commandes d&amp;rsquo;un CLI en fonction du système d&amp;rsquo;exploitation utilisé.
+Le contenu ainsi que les paramètres définis dans un shortcode tab sont prépondérant par rapport à ceux définis dans le shortcode snippet parent.</description>
+    </item>
+    
+    <item>
+      <title>{{&lt; treeview &gt;}}</title>
+      <link>https://website.mianitianoustudy.com/is/shortcodes/treeview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/shortcodes/treeview/</guid>
+      <description>Description#Le shortcode treeview permet d&amp;rsquo;afficher une arborescence sous diverses formes.
+Paramètres#Nom Type(nommé/positionnel) Description rootpath nommé Chemin du haut niveau de l&amp;rsquo;arborescence.
+NB: Si non renseigné, le chemin utilisé est celui de la page actuelle (.). display nommé Styles disponibles:
+list graph tree NB: Si non renseigné, le style par défaut est list.
+init nommé Comportement de l&amp;rsquo;arborescence à l&amp;rsquo;initialisation.
+Valeurs possibles:
+collapse uncollapse NB: Si non renseigné, le comportement par défaut est uncollapse.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fonctionnalités on Kieran Collins OU rannsóknarskýringar</title>
+    <link>https://website.mianitianoustudy.com/is/categories/fonctionnalit%C3%A9s/</link>
+    <description>Recent content in Fonctionnalités on Kieran Collins OU rannsóknarskýringar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/is/categories/fonctionnalit%C3%A9s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bannière globale</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/banner/global/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/banner/global/</guid>
+      <description>Description#Pour afficher une bannière globale, rendue sur toutes les pages, définir le paramètre globalBanner à true dans le fichier config.toml.
+Par défaut, la bannière contient un texte à propos d&amp;rsquo;une version dépréciée, défini dans la variable banner_default_content du module i18n, utilisant les deux paramètres suivants:
+currentVersion latestVersionUrl Exemple#La page courante affiche la bannière par défaut.</description>
+    </item>
+    
+    <item>
+      <title>Menu latéral</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/</guid>
+      <description>Description#Par défaut le thème génère un menu latéral associé à l&amp;rsquo;arborescence du contenu du site.
+Cette arborescence doit suivre le standard de l&amp;rsquo;organisation du contenu Hugo et permet de gérer deux types de pages:
+la section définie par une page de contenu _index.md dans un dossier contenant au moins une autre page simple de contenu la page simple de contenu définie par une page contenu _index.md dans un dossier ne contenant aucune autre page simple de contenu définie par une page *.</description>
+    </item>
+    
+    <item>
+      <title>Page simple 1</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/simple_page1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/simple_page1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Page simple de section</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section/simple_section_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section/simple_section_page/</guid>
+      <description>Description#Cf. Page simple</description>
+    </item>
+    
+    <item>
+      <title>Page simple de section désactivée</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/disabled_section/simple_section_page_disabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/disabled_section/simple_section_page_disabled/</guid>
+      <description>Description#Cf. Page simple</description>
+    </item>
+    
+    <item>
+      <title>Page simple désactivée</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</guid>
+      <description>Page simple désactivée manuellement#</description>
+    </item>
+    
+    <item>
+      <title>Page simple sans table des matières</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/toc/toc_disabled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/toc/toc_disabled/</guid>
+      <description>Titre de niveau 1#Titre de niveau 2#Titre de niveau 3#Titre de niveau 4#Titre de niveau 5#Titre de niveau 6#Deuxième titre de niveau 1#Deuxième titre de niveau 2#Deuxième titre de niveau 3#Deuxième titre de niveau 4#Deuxième titre de niveau 5#Deuxième titre de niveau 6#</description>
+    </item>
+    
+    <item>
+      <title>Section vide</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/empty_section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/empty_section/</guid>
+      <description>Description#Une section vide sera affichée de la même manière qu&amp;rsquo;une page simple et peut donc être définie des manières suivantes:
+une page de contenu _index.md située dans un dossier ne contenant aucune autre page simple de contenu Section
+_index.md
+une page de contenu définie par une page *.md située dans n&amp;rsquo;importe quel dossier Section
+section_vide.md
+&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Bannière spécifique</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/banner/single/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/banner/single/</guid>
+      <description>Description#Pour afficher une bannière spécifique, rendue sur une seul page, définir le paramètre banner à true dans l&amp;rsquo;entête d’une page de contenu.
+Par défaut, la bannière contient le text de la variable banner_default_content du module i18n, mais il est possible d&amp;rsquo;utiliser un texte spécifique en utilisant le paramètre bannerContent dans l&amp;rsquo;entête d’une page de contenu.
+Exemple#Entête d’une page de contenu---...banner: truebannerContent: &amp;#34;Je suis une bannière&amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>Multilingue</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/multilingual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/multilingual/</guid>
+      <description>Description#Par défaut le thème gère le mode multilangue de Hugo.
+Un menu situé dans la barre de navigation permet de basculer vers la langue choisie, suivant la configuration du site. Toutefois ce menu n&amp;rsquo;apparaitra que si la page courante dispose d&amp;rsquo;une traduction (la page doit être nommé de la même manière dans toutes les traductions).</description>
+    </item>
+    
+    <item>
+      <title>Page simple 2</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/simple_page2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/simple_page2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Page simple vide</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_disabled_pages/empty_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_disabled_pages/empty_simple_page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Section</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section/</guid>
+      <description>Description#Une section est définie automatiquement de la manière suivante:
+une page de contenu _index.md située dans un dossier contenant au moins une autre page simple de contenu Section
+_index.md
+&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Fonctionnalités</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/</guid>
+      <description>Menu latéral
+Section vide
+Section
+Page simple de section
+Section désactivée
+Page simple de section désactivée
+Pages désactivées
+Page simple désactivée
+Page simple vide
+Pages triées
+Page simple 1
+Page simple 2
+Page simple 3
+Page simple
+Page simple avec icone
+Multilingue
+Taxonomies
+Table des matières
+Page simple sans table des matières
+Imports tiers
+Recherche
+Mermaid
+Raccourcis
+Fonctions d&amp;#39;aide Javascript
+Impression
+404
+QR code d&amp;#39;une page
+Bannière
+Bannière globale</description>
+    </item>
+    
+    <item>
+      <title>Page simple 3</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/simple_page3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/simple_page3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Section désactivée</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/disabled_section/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/disabled_section/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomies</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/taxonomies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/taxonomies/</guid>
+      <description>Description#Par défaut le thème gère les taxonomies Hugo.
+Un menu situé dans la barre de navigation permet de choisir une taxonomie et de basculer vers la vue des taxonomies, suivant la configuration du site. Toutefois ce menu n&amp;rsquo;apparaitra que si au moins une taxonomy a été configuré sur le site.Associer un logo à une taxonomie#Il est possible d&amp;rsquo;associer un logo à une taxonomie, qui appraitra dans le menu de la barre de navigation, en définissant un paramètre icon comme ci-dessous:</description>
+    </item>
+    
+    <item>
+      <title>Pages désactivées</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_disabled_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_disabled_pages/</guid>
+      <description>Description#Une page peut être définie comme désactivée des deux manières suivantes:
+automatiquement, si la page ne contient aucun contenu (excepté l&amp;rsquo;entête) manuellement, en définissant la variable sidebarDisabled à true dans l&amp;rsquo;entête de la page Une section étant un cas particulier de page de contenu, il est possible de définir une section vide de la même manière qu&amp;rsquo;une page de contenu simple.Exemples#Désactivation automatique: page.md--- title: &amp;#34;Entête de la page&amp;#34; --- Désactivation manuelle: page.</description>
+    </item>
+    
+    <item>
+      <title>Table des matières</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/toc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/toc/</guid>
+      <description>Description#Par défaut dans le thème, chaque page de contenu (excepté la page d&amp;rsquo;accueil) génère une table des matières associée aux titres contenus dans la page.
+Il est possible d&amp;rsquo;activer ou désactiver cette fonctionnalité, soit globalement (sur tout le site), soit par page, en prenant en compteles considérations suivantes:
+la page d&amp;rsquo;accueil ne contient jamais de table des matières la clé de configuration utilisée est toc sans configuration, la table des matières est activée globalement (sur tout le site) la priorité de configuration appliquée est la suivante (de la plus haute à la plus basse): configuration de la page configuration du site la configuration utilisée pour activer/désactiver la table des matières de manière globale (sur tout le site) est la suivante: [params]toc = true/false la configuration utilisée pour activer/désactiver la table des matières sur une seule page (a définir dans l&amp;rsquo;entête de la page) est la suivante: ---toc: false--- Quand elle est activée, la table des matières n&amp;rsquo;est disponible que lorsque la largeur de la fenêtre est supérieure à 1024 pixels.</description>
+    </item>
+    
+    <item>
+      <title>Imports tiers</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/thirdparty_imports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/thirdparty_imports/</guid>
+      <description>Description#Par défaut dans le thème, il est possible d&amp;rsquo;importer des librairies ou du code tiers dans la page html générée, en utilisant la configuration du site.
+Les différents types d&amp;rsquo;imports gérés par le thème sont les suivants:
+Type d&amp;rsquo;import Commentaire Fichiers SASS (.sass) Importés dans la balise &amp;lt;head&amp;gt; en tant que &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; type=&amp;quot;text/css&amp;quot;&amp;gt; après avoir été convertis en CSS par Hugo, regroupés et minifiés dans un fichier main.</description>
+    </item>
+    
+    <item>
+      <title>Pages triées</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/section_sorted_pages/</guid>
+      <description>Description#Par défaut le thème gère le tri du menu latéral selon le tri standard du contenu Hugo.
+Définition du comportement de tri#Afin de définir un comportement spécifique pour le tri du menu latéral il faut définir la clé de configuration siteContentOrder dans les paramètres spécifiques du site.
+Les valeurs possibles de ce paramètre correspondent aux différentes méthodes de tri Hugo, sans espaces et en minuscules.</description>
+    </item>
+    
+    <item>
+      <title>Page simple</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/simple_page/</guid>
+      <description>Description#Une page de contenu est définie de la manière suivante:
+une page *.md située dans un dossier contenant au minimum une page de définition de section (_index.md) Section
+_index.md
+page_simple.md</description>
+    </item>
+    
+    <item>
+      <title>Recherche</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/search/</guid>
+      <description>Description#Par défaut le thème met à disposition une option de recherche. Celle-ci permet d&amp;rsquo;effectuer des recherches simples sur le site et sur le contenu markdown avant conversion en html, en utilisant la librairie javascript FlexSearch.
+Les différentes caractéristiques de la recherche sont:
+recherche simple (recherche par expression régulière non disponible) recherche non sensible aux diacritiques autocomplétion des résultats regroupement des résultats en fonction de la section principale lien vers la page contenant le résultat </description>
+    </item>
+    
+    <item>
+      <title>Mermaid</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/mermaid/</guid>
+      <description>Description#Par défaut le thème prend en charge le format Mermaid, permettant d&amp;rsquo;afficher des diagrammes créés à partir de texte et de code, et en rajoutant diverses fonctionnalités utilitaires.
+Les différentes caractéristiques et fonctionnalités du thème liées à Mermaid sont :
+rendu obtenu à partir d&amp;rsquo;un bloc de code cloisonné et language de surlignage à mermaid bouton d&amp;rsquo;export associé a chaque svg généré aperçu (clic sur l&amp;rsquo;image généré) Exemples#Markdown Rendu ```mermaidgraph TBsubgraph Étape 2b1(Action 2.</description>
+    </item>
+    
+    <item>
+      <title>Page simple avec icone</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/sidebar/icon_simple_page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/sidebar/icon_simple_page/</guid>
+      <description>Description#Une section ou une page de contenu peut être identifiée par un icone issu de la librairie FontAwesome afin de faciliter la navigation.
+Pour cela deux paramétrages sont possibles (avec pour chaque valeur de paramètre les différentes classes FontAwesome):
+paramétrage standard par le biais de la configuration par défaut du thème paramétrage par page en définissant la variable titleIcon dans l&amp;rsquo;entête de la page Paramétrage standard#themeParams.</description>
+    </item>
+    
+    <item>
+      <title>Raccourcis</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/shortcuts/</guid>
+      <description>Description#Par défaut des raccourcis clavier sont fournis pour permettre d&amp;rsquo;intéragir plus facilement avec le thème, mais il est possible de définir des raccourcis spécifique par le biais d&amp;rsquo;un minimum de configuration.
+Par exemple, il est possible d&amp;rsquo;obtenir la liste des raccourcis disponibles en utilisant le raccourci Maj + k.
+Définir un raccourci spécifique#Afin de définir un raccourci, il faut suivre le process suivant (exemple avec le raccourci example (Maj + 1) du site du thème):</description>
+    </item>
+    
+    <item>
+      <title>Fonctions d&#39;aide Javascript</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/helpers_js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/helpers_js/</guid>
+      <description>Description#Afin de faciliter l&amp;rsquo;utilisation du thème, des fonctions d&amp;rsquo;aide javascripts définies dans le fichier assets/js/theme/modules/helpers.js sont mises à disposition. Ces fonctions sont définies de manières globales à l&amp;rsquo;aide du fichier assets/js/theme/modules/helpersGlobal.js et peuvent donc être appelées depuis n&amp;rsquo;importe quel scope.
+Fonctions d&amp;rsquo;aide javascript#Code Description closeModals(modal); Fonction qui gère la fermeture des fenêtres modales:
+Si renseigné, seul la fenêtre modale définie en entrée est fermée Si aucune entrée, toutes les fenêtres modales sont fermées disableSmoothScroll(); Fonction désactivant le défilement doux du contenu principal.</description>
+    </item>
+    
+    <item>
+      <title>Impression</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/print/</guid>
+      <description>Description#Dans le thème, il est possible d&amp;rsquo;imprimer (ou exporter en PDF) la page courante, afin de diffuser son contenu.
+Caractéristiques#Le thème permet d&amp;rsquo;imprimer une page de contenu suivant les caractéristiques suivantes:
+l&amp;rsquo;impression ne contient que le contenu principal de la page courante: le menu latéral n&amp;rsquo;est pas imprimé la barre de navigation n&amp;rsquo;est pas imprimée la table des matières n&amp;rsquo;est pas imprimée les sauts de pages sont ajustés automatiquement au contenu mais il est possible d&amp;rsquo;en définir des spécifiques à l&amp;rsquo;aide du shortcode pagebreak un icone situé dans la barre de navigation ainsi qu&amp;rsquo;un raccourci permettent d&amp;rsquo;accéder à la prévisualisation de l&amp;rsquo;impression Le texte du document imprimé en PDF à partir de Firefox n&amp;rsquo;est pas sélectionnable contrairement aux navigateurs basés sur Chromium.</description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/error404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/error404/</guid>
+      <description>Description#Par défaut une page d&amp;rsquo;erreur 404 est fournie par le thème, mais il est possible d&amp;rsquo;en définir une spécifique en suivant la documentation Hugo.
+Page 404 du thème#404 </description>
+    </item>
+    
+    <item>
+      <title>QR code d&#39;une page</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/qrcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/qrcode/</guid>
+      <description>Description#Dans le thème, il est possible d&amp;rsquo;afficher l&amp;rsquo;URL de la page courante sous forme de QR code, afin de diffuser son contenu plus facilement.
+Characteristics#Le thème permet d&amp;rsquo;imprimer l&amp;rsquo;URL de la page courante suivant les caractéristiques suivantes:
+le niveau de correction d&amp;rsquo;erreur du QR code est défini à L le QR code est affiché en tant qu&amp;rsquo;image avec le type MIME défini à image/png un icone situé dans la barre de navigation ainsi qu&amp;rsquo;un raccourci permettent d&amp;rsquo;accéder à la prévisualisation du QR code </description>
+    </item>
+    
+    <item>
+      <title>Bannière</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/banner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/banner/</guid>
+      <description>Description#Dans le thème, il est possible d&amp;rsquo;afficher une bannière en haut de la page, en utilisant deux options disponibles:
+activer le site en tant que site archivé, et afficher une bannière sur toutes les pages activer une bannière sur une seule page </description>
+    </item>
+    
+    <item>
+      <title>Versionning</title>
+      <link>https://website.mianitianoustudy.com/is/functionalities/versionning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://website.mianitianoustudy.com/is/functionalities/versionning/</guid>
+      <description>Description#Par défaut dans le thème, il est possible de renseigner une liste de liens référençant d&amp;rsquo;autres versions du site, disponible dans la barre de navigation.
+Définir d&amp;rsquo;autres versions du site#Pour définir d&amp;rsquo;autres version du site, spécifier les dans la liste params.navbar.versions du fichier de configuration config.toml:
+[params] [[params.navbar.versions]] name = &amp;#39;latest&amp;#39; url = &amp;#39;http://latest.website&amp;#39; [[params.navbar.versions]] name = &amp;#39;vX&amp;#39; url = &amp;#39;http://vX.website&amp;#39; [[params.navbar.versions]] name = &amp;#39;v1&amp;#39; url = &amp;#39;http://v1.</description>
+    </item>
+    
+  </channel>
+</rss>
