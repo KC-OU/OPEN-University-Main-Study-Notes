@@ -8,7 +8,7 @@ enableEmoji            = false
 enableGitInfo          = true
 metaDataFormat         = "yaml"
 publishDir             = "public"
-title                  = "Shadocs theme for Hugo"
+title                  = "Kieran Collins OU Study Notes"
 theme                  = "shadocs"
 themesDir = "themes"
 
@@ -69,7 +69,7 @@ themesDir = "themes"
   # toc                   = true
   # globalBanner          = true
   currentVersion          = "latest"
-  latestVersionUrl        = "https://shadocs.netlify.app/"
+  latestVersionUrl        = "https://website.mianitianoustudy.com/"
   # enforceRefrelLinks    = true
   [params.navbar.shortcuts]
     [params.navbar.shortcuts.example]
@@ -77,10 +77,10 @@ themesDir = "themes"
       function = "scExample"
   [[params.navbar.versions]]
     name = 'latest'
-    url  = 'https://shadocs.netlify.app/'
+    url  = 'https://website.mianitianoustudy.com/'
   [[params.navbar.versions]]
     name = 'deprecated version'
-    url  = 'https://shadocs.netlify.app/404.html'
+    url  = 'https://website.mianitianoustudy.com/404.html'
   [params.taxonomies]
     [params.taxonomies.categories]
       icon = "fa-solid fa-table-cells"
