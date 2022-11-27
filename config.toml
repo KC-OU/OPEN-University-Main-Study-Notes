@@ -8,6 +8,7 @@ enableEmoji            = false
 enableGitInfo          = true
 metaDataFormat         = "yaml"
 publishDir             = "public"
+title                  = "Kieran Collins OU Study Notes"
 theme                  = "shadocs"
 themesDir = "themes"
 
@@ -69,7 +70,7 @@ themesDir = "themes"
 
       [Languages.es]
     contentDir   = "content/spanish"
-    title        = "Notas de estudio de Kieran Collins OU"
+    title        = "s"
     weight       = 5
     languageName = "Spanish"
 
