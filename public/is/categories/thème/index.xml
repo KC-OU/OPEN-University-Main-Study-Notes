@@ -1,69 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Thème on Kieran Collins OU rannsóknarskýringar</title>
-    <link>https://website.mianitianoustudy.com/is/categories/th%C3%A8me/</link>
-    <description>Recent content in Thème on Kieran Collins OU rannsóknarskýringar</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/is/categories/th%C3%A8me/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Installation: Introduction</title>
-      <link>https://website.mianitianoustudy.com/is/theme/introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/theme/introduction/</guid>
-      <description>Gestion des versions#Assets utilisées dans le thème#Application Version minimum Hugo (Extended version) 0.91.0Bulma 0.9.3Plusieurs autres assets sont utilisés dans Shadocs. Leurs versions sont disponibles dans le fichier .bmycconfig.json, et les assets sont automatiquements mis à jour grâce à la librairie Bmyc.Installation#Création d&amp;rsquo;un site Hugo#Pour créer un site Hugo, la documentation Hugo propose un Quickstart complet qui reprend l&amp;rsquo;ensemble des étapes necessaires afin de créer facilement et rapidement un site Hugo.</description>
-    </item>
-    
-    <item>
-      <title>Thème</title>
-      <link>https://website.mianitianoustudy.com/is/theme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/theme/</guid>
-      <description>Hugo, qu&amp;rsquo;est ce que c&amp;rsquo;est ?#Hugo est un framework (écrit en Go) permettant de générer rapidement et facilement le contenu statique d&amp;rsquo;un site web.
-Le concept principal d&amp;rsquo;Hugo, est d&amp;rsquo;utiliser le contenu d&amp;rsquo;un site écrit en langage markdown, et de générer le code html associé.
-Hugo utilise des thèmes afin de créer un rendu cohérent. L&amp;rsquo;utilisateur peut ainsi se concentrer sur l&amp;rsquo;ecriture du contenu et sa structuration sans avoir à en gérer le style.</description>
-    </item>
-    
-    <item>
-      <title>Installation: Configuration</title>
-      <link>https://website.mianitianoustudy.com/is/theme/configuration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/theme/configuration/</guid>
-      <description>Généralités#Pour configurer un site Hugo utilisant le thème, il existe trois type de configuration:
-Type Fichier de configuration Configuration standard Hugo ./config.toml Configuration spécifique par le biais des variables site ./config.toml Configuration par défaut du thème .themes/shadocs/data/themeParams.toml Configuration spécifique#config.toml (section [params])[params] # Chemin des fichiers logo du site logo = &amp;#34;images/logo.png&amp;#34; logoTouch = &amp;#34;images/logoTouch.png&amp;#34; # Chemin du fichier de l&amp;#39;image affichée en cas d&amp;#39;erreur 404 image404 = &amp;#34;images/404.</description>
-    </item>
-    
-    <item>
-      <title>Vers l&#39;infini et au-delà !</title>
-      <link>https://website.mianitianoustudy.com/is/theme/beyond/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/theme/beyond/</guid>
-      <description>Aller plus loin#Fonctionnalités et améliorations à venir#Contenu du site#Enrichissement de la documentation Idées de nouvelles fonctionnalités#Dark mode Shortcodes#Optimisations techniques du site#Utilisation de purgeCSS en PostCSS </description>
-    </item>
-    
-    <item>
-      <title>Guide de contribution</title>
-      <link>https://website.mianitianoustudy.com/is/theme/contribute/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/theme/contribute/</guid>
-      <description>Un bug trouvé ?#Si vous trouvez un bug dans le thème, n&amp;rsquo;hésitez pas à ouvrir et expliquer votre problème.
-Une envie de contribuer ?#Si vous souhaitez contribuer directement au projet, n&amp;rsquo;héistez pas à forker le projet et ouvrir une Pull Request pour soummetre vos modifications. Toutes les idées sont les bienvenues et je serai ravi de les analyser.
-Faire tourner le site de documentation en local ?</description>
-    </item>
-    
-    <item>
-      <title>Documentation du thème Shadocs</title>
-      <link>https://website.mianitianoustudy.com/is/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/</guid>
-      <description>Découvrir le thème</description>
-    </item>
-    
-  </channel>
-</rss>

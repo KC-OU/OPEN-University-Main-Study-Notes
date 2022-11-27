@@ -8,7 +8,7 @@ enableEmoji            = false
 enableGitInfo          = true
 metaDataFormat         = "yaml"
 publishDir             = "public"
-title                  = "Shadocs theme for Hugo"
+title                  = ""
 theme                  = "shadocs"
 themesdir              = "../.."
 
@@ -46,7 +46,7 @@ themesdir              = "../.."
 [Languages]
   [Languages.en]
     contentDir   = "content/english"
-    title        = "Shadocs theme documentation"
+    title        = ""
     weight       = 1
     languageName = "English"
 

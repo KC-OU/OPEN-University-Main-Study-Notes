@@ -1,446 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Gestion du contenu on Kieran Collins OU rannsóknarskýringar</title>
-    <link>https://website.mianitianoustudy.com/is/tags/gestion-du-contenu/</link>
-    <description>Recent content in Gestion du contenu on Kieran Collins OU rannsóknarskýringar</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/is/tags/gestion-du-contenu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bannière globale</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/banner/global/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/banner/global/</guid>
-      <description>Description#Pour afficher une bannière globale, rendue sur toutes les pages, définir le paramètre globalBanner à true dans le fichier config.toml.
-Par défaut, la bannière contient un texte à propos d&amp;rsquo;une version dépréciée, défini dans la variable banner_default_content du module i18n, utilisant les deux paramètres suivants:
-currentVersion latestVersionUrl Exemple#La page courante affiche la bannière par défaut.</description>
-    </item>
-    
-    <item>
-      <title>Page simple sans table des matières</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/toc/toc_disabled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/toc/toc_disabled/</guid>
-      <description>Titre de niveau 1#Titre de niveau 2#Titre de niveau 3#Titre de niveau 4#Titre de niveau 5#Titre de niveau 6#Deuxième titre de niveau 1#Deuxième titre de niveau 2#Deuxième titre de niveau 3#Deuxième titre de niveau 4#Deuxième titre de niveau 5#Deuxième titre de niveau 6#</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Titre</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/title/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/title/</guid>
-      <description>Titre#Syntaxe classique#Pour définir un titre, il faut ajouter un nombre de croisillon (#) correspondant au niveau du titre souhaité (de 1 à 6) en début de ligne, suivi d&amp;rsquo;un espace.
-Markdown HTML Rendu # Titre de niveau 1 &amp;lt;h1&amp;gt;Titre de niveau 1&amp;lt;/h1&amp;gt; Titre de niveau 1### Titre de niveau 2 &amp;lt;h2&amp;gt;Titre de niveau 2&amp;lt;/h2&amp;gt; Titre de niveau 2#### Titre de niveau 3 &amp;lt;h3&amp;gt;Titre de niveau 3&amp;lt;/h3&amp;gt; Titre de niveau 3##### Titre de niveau 4 &amp;lt;h4&amp;gt;Titre de niveau 4&amp;lt;/h4&amp;gt; Titre de niveau 4###### Titre de niveau 5 &amp;lt;h5&amp;gt;Titre de niveau 5&amp;lt;/h5&amp;gt; Titre de niveau 5####### Titre de niveau 6 &amp;lt;h6&amp;gt;Titre de niveau 6&amp;lt;/h6&amp;gt; Titre de niveau 6#Syntaxe alternative#Pour les niveaux 1 et 2 uniquement, il est possible d&amp;rsquo;utiliser une syntaxe alternative:</description>
-    </item>
-    
-    <item>
-      <title>Bannière spécifique</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/banner/single/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/banner/single/</guid>
-      <description>Description#Pour afficher une bannière spécifique, rendue sur une seul page, définir le paramètre banner à true dans l&amp;rsquo;entête d’une page de contenu.
-Par défaut, la bannière contient le text de la variable banner_default_content du module i18n, mais il est possible d&amp;rsquo;utiliser un texte spécifique en utilisant le paramètre bannerContent dans l&amp;rsquo;entête d’une page de contenu.
-Exemple#Entête d’une page de contenu---...banner: truebannerContent: &amp;#34;Je suis une bannière&amp;#34;.</description>
-    </item>
-    
-    <item>
-      <title>Le Markdown</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/</guid>
-      <description>Un peu d&amp;rsquo;histoire#Le markdown a été créé par John Gruber afin de faciliter l&amp;rsquo;ecriture de texte et d&amp;rsquo;en améliorer la visibilité. Il s&amp;rsquo;agit d&amp;rsquo;un langage de balisage léger permettant à l&amp;rsquo;utilisateur d&amp;rsquo;écrire du contenu de manière structuré sans avoir à se concentrer sur le rendu et le style. L&amp;rsquo;utilisation d&amp;rsquo;un convertisseur markdown générerera des documents stylisées dans différents formats.
-The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible.</description>
-    </item>
-    
-    <item>
-      <title>Multilingue</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/multilingual/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/multilingual/</guid>
-      <description>Description#Par défaut le thème gère le mode multilangue de Hugo.
-Un menu situé dans la barre de navigation permet de basculer vers la langue choisie, suivant la configuration du site. Toutefois ce menu n&amp;rsquo;apparaitra que si la page courante dispose d&amp;rsquo;une traduction (la page doit être nommé de la même manière dans toutes les traductions).</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Séparation horizontale</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/horizontal_rule/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/horizontal_rule/</guid>
-      <description>Séparation horizontale#Pour définir une séparation horizontale, il faut ajouter au minimum 3 caractères étoiles (*), traits d&amp;rsquo;union (-) ou traits de soulignement (_) en début de ligne (La ligne ne doit contenir que les caractères choisis).
-Markdown HTML Rendu ***---___****** &amp;lt;hr&amp;gt;&amp;lt;hr&amp;gt;&amp;lt;hr&amp;gt;&amp;lt;hr&amp;gt; Attention, pour des raisons de lisibilité de de compatibilité il est recommandé d&amp;rsquo;inclure les séparations horizontales entre deux lignes vides.</description>
-    </item>
-    
-    <item>
-      <title>Fonctionnalités</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/</guid>
-      <description>Menu latéral
-Section vide
-Section
-Page simple de section
-Section désactivée
-Page simple de section désactivée
-Pages désactivées
-Page simple désactivée
-Page simple vide
-Pages triées
-Page simple 1
-Page simple 2
-Page simple 3
-Page simple
-Page simple avec icone
-Multilingue
-Taxonomies
-Table des matières
-Page simple sans table des matières
-Imports tiers
-Recherche
-Mermaid
-Raccourcis
-Fonctions d&amp;#39;aide Javascript
-Impression
-404
-QR code d&amp;#39;une page
-Bannière
-Bannière globale</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Paragraphe</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/paragraph/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/paragraph/</guid>
-      <description>Paragraphe#Pour définir un paragraphe, il faut séparer les lignes de textes par 1 ligne vide.
-Markdown HTML Rendu Je suis un paragraphe.Et moi un autre ! &amp;lt;p&amp;gt;Je suis un paragraphe.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Et moi un autre !&amp;lt;/p&amp;gt; Je suis un paragraphe.
-Et moi un autre !</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Saut de ligne</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/line_break/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/line_break/</guid>
-      <description>Saut de ligne#Syntaxe classique#Pour définir un saut de ligne, il faut finir une ligne de texte par 2 espaces et suivre par une autre ligne de texte.
-Markdown HTML Rendu Je suis un paragraphe, et moi je suis avec toi ! &amp;lt;p&amp;gt;Je suis un paragraphe,&amp;lt;br&amp;gt;et moi je suis avec toi !&amp;lt;/p&amp;gt; Je suis un paragraphe,
-et moi je suis avec toi ! Syntaxe alternative#Pour définir un saut de ligne il est possible d&amp;rsquo;utiliser une syntaxe alternative:</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/</guid>
-      <description>Un shortcode, qu’est ce que c’est ?#De manière simple, un shortcode est un fragment de code qui se base sur un template et qu&amp;rsquo;il est possible d&amp;rsquo;utiliser dans le contenu markdown d&amp;rsquo;une page.
-Plus d&amp;rsquo;information sur les shortcodes dans la documentation Hugo.Utilisation#La documentation des shortcodes du thème fournie les informations afin de pouvoir utiliser facilement les différents shortcodes ajoutés par le thème:
-Description du shortcode Paramètres du shortcode décrit sous la forme du tableau suivant: Nom Type(nommé/positionnel) Description Exemples d&amp;rsquo;utilisation Les shortcodes du thème#{{&amp;lt; alert &amp;gt;}}</description>
-    </item>
-    
-    <item>
-      <title>Table des matières</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/toc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/toc/</guid>
-      <description>Description#Par défaut dans le thème, chaque page de contenu (excepté la page d&amp;rsquo;accueil) génère une table des matières associée aux titres contenus dans la page.
-Il est possible d&amp;rsquo;activer ou désactiver cette fonctionnalité, soit globalement (sur tout le site), soit par page, en prenant en compteles considérations suivantes:
-la page d&amp;rsquo;accueil ne contient jamais de table des matières la clé de configuration utilisée est toc sans configuration, la table des matières est activée globalement (sur tout le site) la priorité de configuration appliquée est la suivante (de la plus haute à la plus basse): configuration de la page configuration du site la configuration utilisée pour activer/désactiver la table des matières de manière globale (sur tout le site) est la suivante: [params]toc = true/false la configuration utilisée pour activer/désactiver la table des matières sur une seule page (a définir dans l&amp;rsquo;entête de la page) est la suivante: ---toc: false--- Quand elle est activée, la table des matières n&amp;rsquo;est disponible que lorsque la largeur de la fenêtre est supérieure à 1024 pixels.</description>
-    </item>
-    
-    <item>
-      <title>Markdown: L&#39;accentuation</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/emphasis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/emphasis/</guid>
-      <description>L&amp;rsquo;accentuation#Texte en italique#Pour définir un texte en italique, il faut l&amp;rsquo;inclure entre 1 étoile (*) ou 1 traits de soulignement (_).
-Markdown HTML Rendu Je suis en *italique* Je suis en &amp;lt;em&amp;gt;italique&amp;lt;/em&amp;gt; Je suis en italique Attention, pour des raisons de compatibilité entre les différentes syntaxes markdown il est recommandé d&amp;rsquo;utiliser la syntaxe avec des étoiles plutôt que celle avec les traits de soulignement.Texte en gras#Pour définir un texte en gras, il faut l&amp;rsquo;inclure entre 2 étoiles (*) ou 2 traits de soulignement (_).</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Citation</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/blockquote/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/blockquote/</guid>
-      <description>Citation#Citation Simple#Pour définir une citation, il faut ajouter un caractère supérieur (&amp;gt;) en début de ligne, suivi d&amp;rsquo;un espace.
-Markdown HTML Rendu &amp;gt; Je suis une citation. &amp;lt;blockquote&amp;gt;&amp;lt;p&amp;gt;Je suis une citation.&amp;lt;/p&amp;gt;&amp;lt;/blockquote&amp;gt; Je suis une citation.
-Citation sur plusieurs paragraphes#Pour définir une citation sur plusieurs paragraphes, il faut ajouter un caractère supérieur (&amp;gt;) en début de chaque ligne, même vide ( toujours suivi d&amp;rsquo;un espace pour les lignes contenant du texte).</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Liste</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/list/</guid>
-      <description>Liste#Liste ordonnée#Pour définir une liste ordonnée, il faut ajouter un chiffre suivi du caractère point (.) en début de ligne, suivi d&amp;rsquo;un espace (L&amp;rsquo;ordre des chiffres n&amp;rsquo;est pas important, mais le chiffre de la première ligne défini le point de départ de la liste).
-Il est possible d&amp;rsquo;imbriquer des listes en rajoutant au minimum 4 espaces en début de ligne par rapport au niveau précédent (tous les élément d&amp;rsquo;un même niveau doivent avoir le même nombre d&amp;rsquo;espaces en début de ligne).</description>
-    </item>
-    
-    <item>
-      <title>Mermaid</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/mermaid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/mermaid/</guid>
-      <description>Description#Par défaut le thème prend en charge le format Mermaid, permettant d&amp;rsquo;afficher des diagrammes créés à partir de texte et de code, et en rajoutant diverses fonctionnalités utilitaires.
-Les différentes caractéristiques et fonctionnalités du thème liées à Mermaid sont :
-rendu obtenu à partir d&amp;rsquo;un bloc de code cloisonné et language de surlignage à mermaid bouton d&amp;rsquo;export associé a chaque svg généré aperçu (clic sur l&amp;rsquo;image généré) Exemples#Markdown Rendu ```mermaidgraph TBsubgraph Étape 2b1(Action 2.</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Extrait de code</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/code/</guid>
-      <description>Extrait de code#Fragment de code#Pour définir un fragment de code, il faut ajouter une apostrophe inversée (`) avant et après le code à mettre en évidence.
-Markdown HTML Rendu Tapez `hugo version` pour connaitre la version Hugo &amp;lt;p&amp;gt;Tapez &amp;lt;code&amp;gt;hugo version&amp;lt;/code&amp;gt; pour connaitre la version Hugo&amp;lt;/p&amp;gt; Tapez hugo version pour connaitre la version Hugo Fragment de code imbriqué#Pour définir un fragment de code imbriqué dans un autre, il faut ajouter deux apostrophes inversées (`) avant et après le texte global qui contiendra le fragment de code imbriqué.</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Lien</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/link/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/link/</guid>
-      <description>Lien#Syntaxe classique#Pour définir un lien, il faut respecter la syntaxe suivante:
-[Texte_du_lien](URL_du_lien) Markdown HTML Rendu [Je suis un lien relatif vers une autre page (du même répertoire) du site](image/) &amp;lt;a href=&amp;#34;/markdown/image/&amp;#34;&amp;gt;Je suis un lien relatif vers une autre page (du même répertoire) du site&amp;lt;/a&amp;gt; Je suis un lien relatif vers une autre page (du même répertoire) du site [Je suis un lien relatif vers une autre page (page parente) du site](.</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Image</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/image/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/image/</guid>
-      <description>Image#Syntaxe classique#Pour définir une image, il faut respecter la syntaxe suivante:
-![Texte_alternatif_de_l&amp;rsquo;image](URL_de_l&amp;rsquo;image) Markdown HTML Rendu ![Je suis une image](/images/favicon.png) &amp;lt;p&amp;gt;&amp;lt;img src=&amp;#34;/images/favicon.png&amp;#34; alt=&amp;#34;Je suis une image&amp;#34;&amp;gt;&amp;lt;/p&amp;gt; Image dans un lien#Pour définir un lien sur une image, il faut encapsuler l&amp;rsquo;image dans la syntaxe d&amp;rsquo;un lien classique.
-Markdown HTML Rendu [![Je suis une image](/images/favicon.png)](/) &amp;lt;p&amp;gt;&amp;lt;a href=&amp;#34;/&amp;#34;&amp;gt;&amp;lt;img src=&amp;#34;/images/favicon.png&amp;#34; alt=&amp;#34;Je suis une image&amp;#34;&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt; </description>
-    </item>
-    
-    <item>
-      <title>Markdown: Tableau</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/table/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/table/</guid>
-      <description>Tableau#Syntaxe classique#Pour définir un tableau, il faut respecter les règles suivantes:
-Séparer les colonnes par des barres verticales (|) Insérer des barres verticales (|) aux deux extrémités du tableau Séparer le titre d&amp;rsquo;une colonne avec son contenu, par une ligne de démarcation contenant au minimum 3 caractères traits d&amp;rsquo;union (-) Markdown HTML Rendu | Variable | Valeur | Description || -------- | ------ | ----------- || A | 1 | Entier || B | 2 | | &amp;lt;table&amp;gt;&amp;lt;thead&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;Variable&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Valeur&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/thead&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;A&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;1&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Entier&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;B&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;2&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt; Variable Valeur Description A 1 Entier B 2 |Variable|Valeur|Description||---|---|---||A|1|Entier||B|2|| &amp;lt;table&amp;gt;&amp;lt;thead&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;th&amp;gt;Variable&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Valeur&amp;lt;/th&amp;gt;&amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/thead&amp;gt;&amp;lt;tbody&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;A&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;1&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;Entier&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;B&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;2&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/tbody&amp;gt;&amp;lt;/table&amp;gt; Variable Valeur Description A 1 Entier B 2 Pour créer plus facilement des tableaux, il est possible d&amp;rsquo;utiliser des générateurs de tableaux en ligne tel que Markdown Tables Generator afin d&amp;rsquo;obtenir directement le code markdown associé à un tableau.</description>
-    </item>
-    
-    <item>
-      <title>Markdown: Note de bas de page</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/footnotes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/footnotes/</guid>
-      <description>Note de bas de page#Pour définir une note de bas de page, il faut la formater en 2 parties.
-Première partie (référence de la note de bas de page)
-Pour définir la première partie de la note de bas de page, qui correspond à une référence à définir dans la deuxième partie, il faut utiliser la syntaxe suivante:
-Texte_associée_à_une_note_de_bas_de_page[^Référence_de_la_note_de_bas_de_page] La référence de la note de bas de page peut contenir uniquement des caractères alphanumériques (aucun espace ou tabulation).</description>
-    </item>
-    
-    <item>
-      <title>Bannière</title>
-      <link>https://website.mianitianoustudy.com/is/functionalities/banner/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/functionalities/banner/</guid>
-      <description>Description#Dans le thème, il est possible d&amp;rsquo;afficher une bannière en haut de la page, en utilisant deux options disponibles:
-activer le site en tant que site archivé, et afficher une bannière sur toutes les pages activer une bannière sur une seule page </description>
-    </item>
-    
-    <item>
-      <title>Markdown: Emoji</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/emoji/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/emoji/</guid>
-      <description>Emoji#Syntaxe classique#Pour définir un emoji, il faut utiliser son pseudo-code associé (Exemple de liste de pseudo-code pour emoji).
-Markdown HTML Rendu :metal: &amp;lt;p&amp;gt;🤘&amp;lt;/p&amp;gt; 🤘 Attention, pour pouvoir utiliser les pseudo-code emoji il est nécessaire que l&amp;rsquo;option Hugo enableEmoji soit activée.
-De plus, certains pseudo-code peuvent ne pas être pris en compte par le convertisseur markdown.Syntaxe alternative#Pour définir un emoji il est possible d&amp;rsquo;utiliser une syntaxe alternative:</description>
-    </item>
-    
-    <item>
-      <title>Markdown: L&#39;échappement des caractères</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/escaping_character/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/escaping_character/</guid>
-      <description>L&amp;rsquo;échappement des caractères#Pour échapper des caractères, il faut les préfixer d&amp;rsquo;un antislash (\) (La liste des caractères pouvant être échappés est disponible ci-dessous).
-Markdown HTML Rendu \\ &amp;lt;p&amp;gt;\&amp;lt;p&amp;gt; \ \* &amp;lt;p&amp;gt;*&amp;lt;p&amp;gt; * \_ &amp;lt;p&amp;gt;_&amp;lt;p&amp;gt; _ \` &amp;lt;p&amp;gt;`&amp;lt;p&amp;gt; ` \{\} &amp;lt;p&amp;gt;{}&amp;lt;p&amp;gt; {} \[\] &amp;lt;p&amp;gt;[]&amp;lt;p&amp;gt; [] \(\) &amp;lt;p&amp;gt;()&amp;lt;p&amp;gt; () \# &amp;lt;p&amp;gt;#&amp;lt;p&amp;gt; # \+ &amp;lt;p&amp;gt;&amp;#43;&amp;lt;p&amp;gt; + \- &amp;lt;p&amp;gt;-&amp;lt;p&amp;gt; - \. &amp;lt;p&amp;gt;.&amp;lt;p&amp;gt; . \! &amp;lt;p&amp;gt;!&amp;lt;p&amp;gt; ! \| &amp;lt;p&amp;gt;|&amp;lt;p&amp;gt; | </description>
-    </item>
-    
-    <item>
-      <title>Markdown: Commentaire</title>
-      <link>https://website.mianitianoustudy.com/is/markdown/commentary/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/markdown/commentary/</guid>
-      <description>Commentaire#Pour définir un commentaire, il faut utiliser la même syntaxe que des commentaires HTML (&amp;lt;!-- [&amp;hellip;] --&amp;gt;).
-Markdown HTML Rendu On me voit&amp;lt;!-- On me voit plus --&amp;gt; &amp;lt;p&amp;gt;On me voit&amp;lt;p&amp;gt;&amp;lt;!-- On me voit plus --&amp;gt; On me voit</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; alert &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/alert/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/alert/</guid>
-      <description>Description#Le shortcode alert permet de mettre en valeur du texte suivant différents styles.
-Paramètres#Nom Type(nommé/positionnel) Description type nommé Styles disponibles:
-info success warning error NB: Si non renseigné, le style par défaut est info.
-Exemples#Markdown Rendu {{&amp;lt; alert &amp;gt;}}Je suis une alerte de type **info** par défaut{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type info par défaut{{&amp;lt; alerttype=&amp;#34;info&amp;#34;&amp;gt;}}Je suis une alerte de type **info**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type info{{&amp;lt; alerttype=&amp;#34;success&amp;#34;&amp;gt;}}Je suis une alerte de type **success**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type success{{&amp;lt; alerttype=&amp;#34;warning&amp;#34;&amp;gt;}}Je suis une alerte de type **warning**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type warning{{&amp;lt; alerttype=&amp;#34;error&amp;#34;&amp;gt;}}Je suis une alerte de type **error**{{&amp;lt; /alert &amp;gt;}} Je suis une alerte de type error</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; asyncapi &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/asyncapi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/asyncapi/</guid>
-      <description>Description#Le shortcode asyncapi permet d&amp;rsquo;afficher de la documentation AsyncAPI associée à un service.
-Paramètres#Nom Type(nommé/positionnel) Description source nommé Source de la documentation AsyncAPI.
-NB: La source peut-etre définie par un chemin local ou une URL. Exemples#Markdown Rendu {{&amp;lt; asyncapi source=&amp;#34;/asyncapi/example.yaml&amp;#34; &amp;gt;}} Loading{{&amp;lt; asyncapi source=&amp;#34;https://raw.githubusercontent.com/asyncapi/spec/master/examples/simple.yml&amp;#34; &amp;gt;}} Loading</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; blockquote &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/blockquote/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/blockquote/</guid>
-      <description>Description#Le shortcode blockquote permet d&amp;rsquo;écrire une citation.
-Paramètres#Nom Type(nommé/positionnel) Description source nommé Source de la citation.
-NB: Si non renseigné, le rendu est celui d&amp;rsquo;une citation standard en markdown. Exemples#Markdown Rendu {{&amp;lt; blockquote &amp;gt;}}Je suis une citation sans source{{&amp;lt; /blockquote &amp;gt;}} Je suis une citation sans source{{&amp;lt; blockquotesource=&amp;#34;Shadocs&amp;#34;&amp;gt;}}Je suis une citation avec source{{&amp;lt; /blockquote &amp;gt;}} Je suis une citation avec source~ Shadocs</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; collapsible &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/collapsible/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/collapsible/</guid>
-      <description>Description#Le shortcode collapsible permet d&amp;rsquo;écrire un bloc de texte développable.
-Paramètres#Nom Type(nommé/positionnel) Description title nommé Titre du bloc de texte.
-NB: Si non renseigné, le titre est un texte par défaut défini par le thème. Exemples#Markdown Rendu {{&amp;lt; collapsible &amp;gt;}}Je suis caché{{&amp;lt; /collapsible &amp;gt;}} Expand/CollapseJe suis caché{{&amp;lt; collapsibletitle=&amp;#34;Sésame, ouvre-toi!&amp;#34;&amp;gt;}}Je suis caché{{&amp;lt; /collapsible &amp;gt;}} Sésame, ouvre-toi!Je suis caché</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; highcharts &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/highcharts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/highcharts/</guid>
-      <description>Description#Le shortcode highcharts permet d&amp;rsquo;afficher des graphes Highcharts.
-Paramètres#Nom Type(nommé/positionnel) Description id nommé Id du conteneur Highcharts.
-NB: Cet Id peut être utilisé en tant que paramètre renderTo de la classe Highcharts.Chart. assets nommé Liste séparée par des virgules des assets Highcharts minifiés à charger dans la page.
-NB: Tous les assets minifiés de Highcharts sont inclus dans le thème et disponible dans assets/js/external/highcharts. source nommé Source du graphe Highcharts.</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; intro &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/intro/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/intro/</guid>
-      <description>Description#Le shortcode intro permet d&amp;rsquo;utiliser la librairie intro.js afin de générer une intro de démonstration.
-Configuration de intro.js#Le contenu du shortcode définit la configuration au format JSON de l&amp;rsquo;intro. De plus, des paramètres ont été ajoutés dans le thème afin de permettre un paramétrage simplifié et adapté.
-Configuration JSON du contenu du shortcode intro{ &amp;#34;[...]&amp;#34;, &amp;#34;[Options standard intro.js]&amp;#34;: &amp;#34;https://introjs.com/docs/intro/options (Cf. liste des options par défaut du thème ci-dessous)&amp;#34;, &amp;#34;[.</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; md &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/md/</guid>
-      <description>Description#Le shortcode md permet de forcer la conversion d&amp;rsquo;un bloc de texte écrit en markdown.
-Ce shortcode est notamment utile pour rajouter du contenu écrit en syntaxes markdown complexes (listes, extrait de code, &amp;hellip;), dans un tableau, ou dans le cas de shortcodes imbriqués. Imbriquer deux shortcode md n&amp;rsquo;est pas possible.Paramètres#Nom Type(nommé/positionnel) Description Exemples#Markdown Rendu {{&amp;lt; md &amp;gt;}}Je suis du texte écrit en **markdown**{{&amp;lt; /md &amp;gt;}} Je suis du texte écrit en markdown | Markdown | Rendu || -------- | ----- ||{{&amp;lt; md &amp;gt;}}```{{&amp;lt; md &amp;gt;}}Je suis du texte écrit en **markdown**{{&amp;lt; /md &amp;gt;}}```{{&amp;lt; /md &amp;gt;}}|{{&amp;lt; md &amp;gt;}}Je suis du texte écrit en **markdown**{{&amp;lt; /md &amp;gt;}} Tableau d&amp;rsquo;exemples sans la ligne courante (Rendu non disponible car deux shortcode md sont imbriqués dans cet exemple) </description>
-    </item>
-    
-    <item>
-      <title>{{&lt; openapi &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/openapi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/openapi/</guid>
-      <description>Description#Le shortcode openapi permet d&amp;rsquo;afficher de la documentation OpenAPI associée à un service.
-Paramètres#Nom Type(nommé/positionnel) Description source nommé Source de la documentation OpenAPI.
-NB: La source peut-etre définie par un chemin local ou une URL. Exemples#Markdown Rendu {{&amp;lt; openapi source=&amp;#34;/openapi/example.yaml&amp;#34; &amp;gt;}} Loading{{&amp;lt; openapi source=&amp;#34;https://petstore.swagger.io/v2/swagger.json&amp;#34; &amp;gt;}} Loading</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; pagebreak &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/pagebreak/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/pagebreak/</guid>
-      <description>Description#Le shortcode pagebreak permet de définir un saut de page pour l&amp;rsquo;impression.
-Paramètres#Nom Type(nommé/positionnel) Description Exemples#Markdown Rendu {{&amp;lt; pagebreak &amp;gt;}}# Exemples (Rendu non disponible et visible uniquement dans l&amp;rsquo;aperçu impression) </description>
-    </item>
-    
-    <item>
-      <title>{{&lt; parameter &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/parameter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/parameter/</guid>
-      <description>Description#Le shortcode parameter permet d&amp;rsquo;afficher un paramètre du site suivant son type.
-Type Affichage Map (Clé/Valeur) Tableau Liste de String Liste String Texte Le paramètre à afficher peut être déclaré de deux manières différentes:
-Paramètres standard du site (variables .Site.Params), en utilisant le paramètre positionnel du shortcode. Fichier de données spécifique du site, en utilisant le paramètre nommé du shortcode. Le paramètre à afficher est interprété en markdown et converti en conséquence.</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; plaintext &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/plaintext/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/plaintext/</guid>
-      <description>Description#Le shortcode plaintext permet de forcer l&amp;rsquo;affichage du texte brut, sans conversion markdown et échappement des caractères.
-Ce shortcode est notamment utile pour afficher du code HTML, ou du code markdown sans conversion.
-Paramètres#Nom Type(nommé/positionnel) Description Exemples#Markdown Rendu {{&amp;lt; plaintext &amp;gt;}}&amp;lt;p&amp;gt;Je suis du code HTML&amp;lt;/p&amp;gt;{{&amp;lt; /plaintext &amp;gt;}} &amp;lt;p&amp;gt;Je suis du code HTML&amp;lt;/p&amp;gt; {{&amp;lt; plaintext &amp;gt;}}**Je suis du code markdown**{{&amp;lt; /plaintext &amp;gt;}} **Je suis du code markdown** </description>
-    </item>
-    
-    <item>
-      <title>{{&lt; snippet &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/snippet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/snippet/</guid>
-      <description>Description#Le shortcode snippet permet d&amp;rsquo;écrire un fragment de code, défini soit depuis le contenu du shortcode, soit depuis un fichier template.
-De plus, il est possible de définir plusieurs fragments de code répartis dans différents onglets. Pour cela il suffit d&amp;rsquo;imbriquer autant de shortcode tab que d&amp;rsquo;onglet voulu dans un shortcode snippet parent.
-Par exemple: afficher les commandes d&amp;rsquo;un CLI en fonction du système d&amp;rsquo;exploitation utilisé.
-Le contenu ainsi que les paramètres définis dans un shortcode tab sont prépondérant par rapport à ceux définis dans le shortcode snippet parent.</description>
-    </item>
-    
-    <item>
-      <title>{{&lt; treeview &gt;}}</title>
-      <link>https://website.mianitianoustudy.com/is/shortcodes/treeview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://website.mianitianoustudy.com/is/shortcodes/treeview/</guid>
-      <description>Description#Le shortcode treeview permet d&amp;rsquo;afficher une arborescence sous diverses formes.
-Paramètres#Nom Type(nommé/positionnel) Description rootpath nommé Chemin du haut niveau de l&amp;rsquo;arborescence.
-NB: Si non renseigné, le chemin utilisé est celui de la page actuelle (.). display nommé Styles disponibles:
-list graph tree NB: Si non renseigné, le style par défaut est list.
-init nommé Comportement de l&amp;rsquo;arborescence à l&amp;rsquo;initialisation.
-Valeurs possibles:
-collapse uncollapse NB: Si non renseigné, le comportement par défaut est uncollapse.</description>
-    </item>
-    
-  </channel>
-</rss>
