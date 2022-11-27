@@ -32,8 +32,8 @@
       "title": "TM129 - Technolgies in Practice",
       "content": " No data available\r"
     },{
-      "id": "6",
-      "rootTitleIndex": "0",
+      "id": "5",
+      "rootTitleIndex": "1",
       "rootTitle": "Homepage",
       "rootTitleIcon": "fa-solid fa-house-chimney fa-lg",
       "rootTitlePath": "/",
@@ -41,5 +41,5 @@
       "permalink": "/",
       "permalinkTitle": "Homepage",
       "title": "Homepage",
-      "content": "\rTheme onboarding\r"
+      "content": ""
     }]
