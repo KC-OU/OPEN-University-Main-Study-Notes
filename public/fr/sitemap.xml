@@ -895,6 +895,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="is"
+                href="https://website.mianitianoustudy.com/is/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="fr"
                 href="https://website.mianitianoustudy.com/fr/categories/"
                 />
@@ -921,6 +926,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://website.mianitianoustudy.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://website.mianitianoustudy.com/is/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -966,6 +976,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://website.mianitianoustudy.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="is"
+                href="https://website.mianitianoustudy.com/is/tags/"
                 />
     <xhtml:link
                 rel="alternate"
