@@ -8,7 +8,6 @@ enableEmoji            = false
 enableGitInfo          = true
 metaDataFormat         = "yaml"
 publishDir             = "public"
-title                  = "Kieran Collins OU Study Notes"
 theme                  = "shadocs"
 themesDir = "themes"
 
