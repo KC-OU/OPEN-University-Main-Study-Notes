@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://website.mianitianoustudy.com/mu123-discovering-mathematics/</loc>
+  </url><url>
+    <loc>https://website.mianitianoustudy.com/tm111-introduction-to-computing-and-infomation/</loc>
+  </url><url>
+    <loc>https://website.mianitianoustudy.com/tm129-technolgies-in-practice/</loc>
+  </url><url>
     <loc>https://website.mianitianoustudy.com/categories/</loc>
     <lastmod>2022-11-26T21:31:38+00:00</lastmod>
     <xhtml:link
@@ -29,6 +35,10 @@
                 hreflang="en"
                 href="https://website.mianitianoustudy.com/categories/"
                 />
+  </url><url>
+    <loc>https://website.mianitianoustudy.com/tags/courses/</loc>
+  </url><url>
+    <loc>https://website.mianitianoustudy.com/categories/mu123/</loc>
   </url><url>
     <loc>https://website.mianitianoustudy.com/</loc>
     <lastmod>2022-11-26T21:31:38+00:00</lastmod>
@@ -87,5 +97,9 @@
   </url><url>
     <loc>https://website.mianitianoustudy.com/categories/theme/</loc>
     <lastmod>2022-11-26T21:31:38+00:00</lastmod>
+  </url><url>
+    <loc>https://website.mianitianoustudy.com/categories/tm111/</loc>
+  </url><url>
+    <loc>https://website.mianitianoustudy.com/categories/tm129/</loc>
   </url>
 </urlset>

@@ -1,5 +1,38 @@
 [{
+      "id": "0",
+      "rootTitleIndex": "1",
+      "rootTitle": "MU123 - Discovering Mathematics",
+      "rootTitleIcon": "fa-solid fa-calculator fa-lg",
+      "rootTitlePath": "/mu123-discovering-mathematics/",
+      "rootTitleTitle": "Homepage / MU123 - Discovering Mathematics",
+      "permalink": "/mu123-discovering-mathematics/",
+      "permalinkTitle": "Homepage / MU123 - Discovering Mathematics",
+      "title": "MU123 - Discovering Mathematics",
+      "content": " No data available\r"
+    },{
       "id": "1",
+      "rootTitleIndex": "2",
+      "rootTitle": "TM111 - Introduction to Computing and Infomation",
+      "rootTitleIcon": "fa-solid fa-computer fa-lg",
+      "rootTitlePath": "/tm111-introduction-to-computing-and-infomation/",
+      "rootTitleTitle": "Homepage / TM111 - Introduction to Computing and Infomation",
+      "permalink": "/tm111-introduction-to-computing-and-infomation/",
+      "permalinkTitle": "Homepage / TM111 - Introduction to Computing and Infomation",
+      "title": "TM111 - Introduction to Computing and Infomation",
+      "content": " No data available\r"
+    },{
+      "id": "2",
+      "rootTitleIndex": "3",
+      "rootTitle": "TM129 - Technolgies in Practice",
+      "rootTitleIcon": "fa-solid fa-server fa-lg",
+      "rootTitlePath": "/tm129-technolgies-in-practice/",
+      "rootTitleTitle": "Homepage / TM129 - Technolgies in Practice",
+      "permalink": "/tm129-technolgies-in-practice/",
+      "permalinkTitle": "Homepage / TM129 - Technolgies in Practice",
+      "title": "TM129 - Technolgies in Practice",
+      "content": " No data available\r"
+    },{
+      "id": "6",
       "rootTitleIndex": "0",
       "rootTitle": "Homepage",
       "rootTitleIcon": "fa-solid fa-house-chimney fa-lg",
