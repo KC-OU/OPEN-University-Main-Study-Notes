@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Banner on Shadocs theme documentation</title>
-    <link>https://example.com/functionalities/banner/</link>
-    <description>Recent content in Banner on Shadocs theme documentation</description>
+    <title>Banner on Kieran Collins OU Study Notes</title>
+    <link>https://website.mianitianoustudy.com/functionalities/banner/</link>
+    <description>Recent content in Banner on Kieran Collins OU Study Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/functionalities/banner/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/functionalities/banner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global banner</title>
-      <link>https://example.com/functionalities/banner/global/</link>
+      <link>https://website.mianitianoustudy.com/functionalities/banner/global/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/functionalities/banner/global/</guid>
+      <guid>https://website.mianitianoustudy.com/functionalities/banner/global/</guid>
       <description>Description#To display a global banner, that will be rendered on every page, define the globalBanner parameter to true inside the config.toml file.
 By default, the banner will contain a text about a deprecated version, defined in the banner_default_content variable of the i18n module, using the two following parameters:
 currentVersion latestVersionUrl Example#The current page is displaying the default banner.</description>
@@ -19,10 +19,10 @@ currentVersion latestVersionUrl Example#The current page is displaying the def
     
     <item>
       <title>Single banner</title>
-      <link>https://example.com/functionalities/banner/single/</link>
+      <link>https://website.mianitianoustudy.com/functionalities/banner/single/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/functionalities/banner/single/</guid>
+      <guid>https://website.mianitianoustudy.com/functionalities/banner/single/</guid>
       <description>Description#To display a specific banner, that will be displayed on a single page, define the banner parameter to true inside the front matter of the page.
 By default, the banner will contain the banner_default_content variable of the i18n module, but it is possible to use a specific text using the bannerContent parameter inside the front matter of the page.
 Example#Page front matter---...banner: truebannerContent: &amp;#34;I&amp;#39;m a banner&amp;#34;.</description>

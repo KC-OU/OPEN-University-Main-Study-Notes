@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Disabled pages on Shadocs theme documentation</title>
-    <link>https://example.com/functionalities/sidebar/section_disabled_pages/</link>
-    <description>Recent content in Disabled pages on Shadocs theme documentation</description>
+    <title>Disabled pages on Kieran Collins OU Study Notes</title>
+    <link>https://website.mianitianoustudy.com/functionalities/sidebar/section_disabled_pages/</link>
+    <description>Recent content in Disabled pages on Kieran Collins OU Study Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/functionalities/sidebar/section_disabled_pages/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/functionalities/sidebar/section_disabled_pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disabled simple page</title>
-      <link>https://example.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</link>
+      <link>https://website.mianitianoustudy.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</guid>
+      <guid>https://website.mianitianoustudy.com/functionalities/sidebar/section_disabled_pages/disabled_simple_page/</guid>
       <description>Manually disabled simple page#</description>
     </item>
     
     <item>
       <title>Empty simple page</title>
-      <link>https://example.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</link>
+      <link>https://website.mianitianoustudy.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</guid>
+      <guid>https://website.mianitianoustudy.com/functionalities/sidebar/section_disabled_pages/empty_simple_page/</guid>
       <description></description>
     </item>
     

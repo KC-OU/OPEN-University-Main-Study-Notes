@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Menu latéral on Documentation du thème Shadocs</title>
-    <link>https://example.com/fr/functionalities/sidebar/</link>
+    <link>https://website.mianitianoustudy.com/fr/functionalities/sidebar/</link>
     <description>Recent content in Menu latéral on Documentation du thème Shadocs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/fr/functionalities/sidebar/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/fr/functionalities/sidebar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Page simple</title>
-      <link>https://example.com/fr/functionalities/sidebar/simple_page/</link>
+      <link>https://website.mianitianoustudy.com/fr/functionalities/sidebar/simple_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/fr/functionalities/sidebar/simple_page/</guid>
+      <guid>https://website.mianitianoustudy.com/fr/functionalities/sidebar/simple_page/</guid>
       <description>Description#Une page de contenu est définie de la manière suivante:
 une page *.md située dans un dossier contenant au minimum une page de définition de section (_index.md) Section
 _index.md
@@ -20,10 +20,10 @@ page_simple.md</description>
     
     <item>
       <title>Page simple avec icone</title>
-      <link>https://example.com/fr/functionalities/sidebar/icon_simple_page/</link>
+      <link>https://website.mianitianoustudy.com/fr/functionalities/sidebar/icon_simple_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/fr/functionalities/sidebar/icon_simple_page/</guid>
+      <guid>https://website.mianitianoustudy.com/fr/functionalities/sidebar/icon_simple_page/</guid>
       <description>Description#Une section ou une page de contenu peut être identifiée par un icone issu de la librairie FontAwesome afin de faciliter la navigation.
 Pour cela deux paramétrages sont possibles (avec pour chaque valeur de paramètre les différentes classes FontAwesome):
 paramétrage standard par le biais de la configuration par défaut du thème paramétrage par page en définissant la variable titleIcon dans l&amp;rsquo;entête de la page Paramétrage standard#themeParams.</description>

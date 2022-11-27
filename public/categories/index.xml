@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Shadocs theme documentation</title>
-    <link>https://example.com/categories/</link>
-    <description>Recent content in Categories on Shadocs theme documentation</description>
+    <title>Categories on Kieran Collins OU Study Notes</title>
+    <link>https://website.mianitianoustudy.com/categories/</link>
+    <description>Recent content in Categories on Kieran Collins OU Study Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Functionalities</title>
-      <link>https://example.com/categories/functionalities/</link>
+      <link>https://website.mianitianoustudy.com/categories/functionalities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/functionalities/</guid>
+      <guid>https://website.mianitianoustudy.com/categories/functionalities/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://example.com/categories/markdown/</link>
+      <link>https://website.mianitianoustudy.com/categories/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/markdown/</guid>
+      <guid>https://website.mianitianoustudy.com/categories/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Miscellaneous</title>
-      <link>https://example.com/categories/miscellaneous/</link>
+      <link>https://website.mianitianoustudy.com/categories/miscellaneous/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/miscellaneous/</guid>
+      <guid>https://website.mianitianoustudy.com/categories/miscellaneous/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortcode</title>
-      <link>https://example.com/categories/shortcode/</link>
+      <link>https://website.mianitianoustudy.com/categories/shortcode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/shortcode/</guid>
+      <guid>https://website.mianitianoustudy.com/categories/shortcode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>https://example.com/categories/theme/</link>
+      <link>https://website.mianitianoustudy.com/categories/theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/categories/theme/</guid>
+      <guid>https://website.mianitianoustudy.com/categories/theme/</guid>
       <description></description>
     </item>
     

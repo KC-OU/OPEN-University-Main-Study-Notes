@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shortcodes on Shadocs theme documentation</title>
-    <link>https://example.com/shortcodes/</link>
-    <description>Recent content in Shortcodes on Shadocs theme documentation</description>
+    <title>Shortcodes on Kieran Collins OU Study Notes</title>
+    <link>https://website.mianitianoustudy.com/shortcodes/</link>
+    <description>Recent content in Shortcodes on Kieran Collins OU Study Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>{{&lt; alert &gt;}}</title>
-      <link>https://example.com/shortcodes/alert/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/alert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/alert/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/alert/</guid>
       <description>Description#The alert shortcode is used to highlight text using different styles.
 Parameters#Name Type(named/positional) Description type named Styles available:
 info success warning error NB: If not specified, the default style is info.
@@ -20,10 +20,10 @@ Examples#Markdown Rendering {{&amp;lt; alert &amp;gt;}}I&amp;#39;m a **info**
     
     <item>
       <title>{{&lt; asyncapi &gt;}}</title>
-      <link>https://example.com/shortcodes/asyncapi/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/asyncapi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/asyncapi/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/asyncapi/</guid>
       <description>Description#The asyncapi shortcode allows to display an AsyncAPI documentation associated to a service.
 Paramètres#Name Type(named/positional) Description source named Source of the AsyncAPI documentation.
 NB: The source can be either a local path or an URL. Examples#Markdown Rendering {{&amp;lt; asyncapi source=&amp;#34;/asyncapi/example.yaml&amp;#34; &amp;gt;}} Loading{{&amp;lt; asyncapi source=&amp;#34;https://raw.githubusercontent.com/asyncapi/spec/master/examples/simple.yml&amp;#34; &amp;gt;}} Loading</description>
@@ -31,10 +31,10 @@ NB: The source can be either a local path or an URL. Examples#Markdown Renderi
     
     <item>
       <title>{{&lt; blockquote &gt;}}</title>
-      <link>https://example.com/shortcodes/blockquote/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/blockquote/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/blockquote/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/blockquote/</guid>
       <description>Description#The blockquote shortcode allows to write a quote.
 Parameters#Name Type(named/positional) Description source named Source of the quote.
 NB: If not specified, the rendering is similar to a standard markdown quote. Examples#Markdown Rendering {{&amp;lt; blockquote &amp;gt;}}I&amp;#39;m a quote without source{{&amp;lt; /blockquote &amp;gt;}} I&amp;rsquo;m a quote without source{{&amp;lt; blockquotesource=&amp;#34;Shadocs&amp;#34;&amp;gt;}}I&amp;#39;m a quote with source{{&amp;lt; /blockquote &amp;gt;}} I&amp;rsquo;m a quote with source~ Shadocs</description>
@@ -42,10 +42,10 @@ NB: If not specified, the rendering is similar to a standard markdown quote. Exa
     
     <item>
       <title>{{&lt; collapsible &gt;}}</title>
-      <link>https://example.com/shortcodes/collapsible/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/collapsible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/collapsible/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/collapsible/</guid>
       <description>Description#The collapsible shortcode allows to write a collapsible text block.
 Parameters#Name Type(named/positional) Description title named Text block title.
 NB: If not specified, the title is a default text defined by the theme. Examples#Markdown Rendering {{&amp;lt; collapsible &amp;gt;}}I&amp;#39;m hidden{{&amp;lt; /collapsible &amp;gt;}} Expand/CollapseI&amp;rsquo;m hidden{{&amp;lt; collapsibletitle=&amp;#34;Open sesame!&amp;#34;&amp;gt;}}I&amp;#39;m hidden{{&amp;lt; /collapsible &amp;gt;}} Open sesame!I&amp;rsquo;m hidden</description>
@@ -53,10 +53,10 @@ NB: If not specified, the title is a default text defined by the theme. Examples
     
     <item>
       <title>{{&lt; highcharts &gt;}}</title>
-      <link>https://example.com/shortcodes/highcharts/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/highcharts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/highcharts/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/highcharts/</guid>
       <description>Description#The highcharts shortcode allows to display Highcharts charts.
 Parameters#Name Type(named/positional) Description id named Id of the Highcharts container.
 NB: This Id can be used as the renderTo parameter of the Highcharts.Chart class. assets named Comma-separated list of minified Highcharts assets to load in the page.
@@ -65,10 +65,10 @@ NB: All the minified assets of Highcharts are included in the theme and availabl
     
     <item>
       <title>{{&lt; intro &gt;}}</title>
-      <link>https://example.com/shortcodes/intro/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/intro/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/intro/</guid>
       <description>Description#The intro shortcode allows to use the intro.js library to generate a demo intro.
 Configuration of intro.js#The content of the shortcode sets the configuration in JSON format of the intro. In addition, parameters have been added into the theme to allow simplified and adapted settings.
 JSON configuration of intro shortcode content{ &amp;#34;[...]&amp;#34;, &amp;#34;[Standard intro.js options]&amp;#34;: &amp;#34;https://introjs.com/docs/intro/options (See default theme options list below)&amp;#34;, &amp;#34;[...]&amp;#34;, &amp;#34;onbeforeexit&amp;#34;: &amp;#34;JavaScript code to execute before exiting the intro (linked to the standard onbeforeexit API of intro.</description>
@@ -76,20 +76,20 @@ JSON configuration of intro shortcode content{ &amp;#34;[...]&amp;#34;, &amp;#3
     
     <item>
       <title>{{&lt; md &gt;}}</title>
-      <link>https://example.com/shortcodes/md/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/md/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/md/</guid>
       <description>Description#The md shortcode allows to force the conversion of a block of text written in markdown.
 This shortcode is particularly useful to add content written in complex markdown syntaxes (lists, code snippets, &amp;hellip;), in a table, or in case of nested shortcodes. Nesting two md shortcode is not possible.Parameters#Name Type(named/positional) Description Examples#Markdown Rendering {{&amp;lt; md &amp;gt;}}I&amp;#39;m a text written in **markdown**{{&amp;lt; /md &amp;gt;}} I&amp;rsquo;m a text written in markdown | Markdown | Rendering || -------- | --------- ||{{&amp;lt; md &amp;gt;}}```{{&amp;lt; md &amp;gt;}}I&amp;#39;m a text written in **markdown**{{&amp;lt; /md &amp;gt;}}```{{&amp;lt; /md &amp;gt;}}|{{&amp;lt; md &amp;gt;}}I&amp;#39;m a text written in **markdown**{{&amp;lt; /md &amp;gt;}} Table of examples without the current row (Rendering not available because two md shortcode are nested in this example) </description>
     </item>
     
     <item>
       <title>{{&lt; openapi &gt;}}</title>
-      <link>https://example.com/shortcodes/openapi/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/openapi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/openapi/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/openapi/</guid>
       <description>Description#The openapi shortcode allows to display an OpenAPI documentation associated to a service.
 Paramètres#Name Type(named/positional) Description source named Source of the OpenAPI documentation.
 NB: The source can be either a local path or an URL. Examples#Markdown Rendering {{&amp;lt; openapi source=&amp;#34;/openapi/example.yaml&amp;#34; &amp;gt;}} Loading{{&amp;lt; openapi source=&amp;#34;https://petstore.swagger.io/v2/swagger.json&amp;#34; &amp;gt;}} Loading</description>
@@ -97,20 +97,20 @@ NB: The source can be either a local path or an URL. Examples#Markdown Renderi
     
     <item>
       <title>{{&lt; pagebreak &gt;}}</title>
-      <link>https://example.com/shortcodes/pagebreak/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/pagebreak/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/pagebreak/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/pagebreak/</guid>
       <description>Description#The pagebreak shortcode is used to define a page break for print.
 Parameters#Name Type(named/positional) Description Examples#Markdown Rendering {{&amp;lt; pagebreak &amp;gt;}}# Examples (Rendering not available and only visible in print preview) </description>
     </item>
     
     <item>
       <title>{{&lt; parameter &gt;}}</title>
-      <link>https://example.com/shortcodes/parameter/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/parameter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/parameter/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/parameter/</guid>
       <description>Description#The parameter shortcode allows to display a site parameter according to its type.
 Type Display Map (Key/Value) Table String list List String Text The parameter to display can be set using two different ways:
 Standard website settings (.Site.Params variables), using the positional parameter of the shortcode. Website specific data file, using the named parameter of the shortcode. The parameter to display is read as a markdown and converted accordingly.</description>
@@ -118,10 +118,10 @@ Standard website settings (.Site.Params variables), using the positional parame
     
     <item>
       <title>{{&lt; plaintext &gt;}}</title>
-      <link>https://example.com/shortcodes/plaintext/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/plaintext/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/plaintext/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/plaintext/</guid>
       <description>Description#The plaintext shortcode allows to force the display of plain text, without markdown conversion and characters escape.
 This shortcode is particularly useful for displaying HTML code, or markdown code without conversion.
 Parameters#Name Type(named/positional) Description Examples#Markdown Rendering {{&amp;lt; plaintext &amp;gt;}}&amp;lt;p&amp;gt;I&amp;#39;m a HTML code&amp;lt;/p&amp;gt;{{&amp;lt; /plaintext &amp;gt;}} &amp;lt;p&amp;gt;I&amp;#39;m a HTML code&amp;lt;/p&amp;gt; {{&amp;lt; plaintext &amp;gt;}}**I&amp;#39;m a markdown code**{{&amp;lt; /plaintext &amp;gt;}} **I&amp;#39;m a markdown code** </description>
@@ -129,10 +129,10 @@ Parameters#Name Type(named/positional) Description Examples#Markdown Renderi
     
     <item>
       <title>{{&lt; snippet &gt;}}</title>
-      <link>https://example.com/shortcodes/snippet/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/snippet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/snippet/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/snippet/</guid>
       <description>Description#The snippet shortcode allows to write a code fragment, defined either from the shortcode content, or from a template file.
 Moreover, it is possible to define snippets organised in tabs. To do so, nest as many tab shortcode as needed in a parent snippet shortcode.
 For example: display CLI commands depending on the operating system used.
@@ -141,10 +141,10 @@ The content as well as parameters defined in a tab shortcode are preponderant ov
     
     <item>
       <title>{{&lt; treeview &gt;}}</title>
-      <link>https://example.com/shortcodes/treeview/</link>
+      <link>https://website.mianitianoustudy.com/shortcodes/treeview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/shortcodes/treeview/</guid>
+      <guid>https://website.mianitianoustudy.com/shortcodes/treeview/</guid>
       <description>Description#The treeview shortcode allows to display a tree structure in various forms.
 Parameters#Name Type(named/positional) Description rootpath named Top level tree path.
 NB: If not specified, the current page path is used (.). display named Styles available:

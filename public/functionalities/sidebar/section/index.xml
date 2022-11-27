@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Section on Shadocs theme documentation</title>
-    <link>https://example.com/functionalities/sidebar/section/</link>
-    <description>Recent content in Section on Shadocs theme documentation</description>
+    <title>Section on Kieran Collins OU Study Notes</title>
+    <link>https://website.mianitianoustudy.com/functionalities/sidebar/section/</link>
+    <description>Recent content in Section on Kieran Collins OU Study Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>The MIT License (MIT) Copyright © 2020 Jordan GAZEAU</copyright><atom:link href="https://example.com/functionalities/sidebar/section/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>The MIT License (MIT) Copyright © 2022 Kieran Collins</copyright><atom:link href="https://website.mianitianoustudy.com/functionalities/sidebar/section/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple section page</title>
-      <link>https://example.com/functionalities/sidebar/section/simple_section_page/</link>
+      <link>https://website.mianitianoustudy.com/functionalities/sidebar/section/simple_section_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/functionalities/sidebar/section/simple_section_page/</guid>
+      <guid>https://website.mianitianoustudy.com/functionalities/sidebar/section/simple_section_page/</guid>
       <description>Description#Cf. Simple page</description>
     </item>
     
