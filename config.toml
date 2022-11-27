@@ -1,8 +1,8 @@
 #
 # Standard configuration
 #
-baseURL                = "https://example.com"
-copyright              = "The MIT License (MIT) Copyright © 2020 Jordan GAZEAU"
+baseURL                = "https://website.mianitianoustudy.com"
+copyright              = "The MIT License (MIT) Copyright © 2022 Kieran Collins"
 defaultContentLanguage = "en"
 enableEmoji            = false
 enableGitInfo          = true
@@ -46,7 +46,7 @@ themesDir = "themes"
 [Languages]
   [Languages.en]
     contentDir   = "content/english"
-    title        = "Shadocs theme documentation"
+    title        = "Kieran Collins OU Study Notes"
     weight       = 1
     languageName = "English"
 
