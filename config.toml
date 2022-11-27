@@ -60,13 +60,22 @@ themesDir = "themes"
     contentDir   = "content/icelandic"
     title        = "Kieran Collins OU rannsóknarskýringar"
     weight       = 3
-    languageName = "Icelandic"  
+    languageName = "Icelandic"
+
+    [Languages.it]
+    contentDir   = "content/italian"
+    title        = "Note di studio dell'unità organizzativa di Kieran Collins"
+    weight       = 4
+    languageName = "Italian"
+
+      [Languages.es]
+    contentDir   = "content/spanish"
+    title        = "Notas de estudio de Kieran Collins OU"
+    weight       = 5
+    languageName = "Spanish"
+
   
-
-
-
-
-
+  
 #
 # Specific configuration
 #
