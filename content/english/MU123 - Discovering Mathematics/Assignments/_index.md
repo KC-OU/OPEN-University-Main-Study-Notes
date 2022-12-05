@@ -11,4 +11,4 @@ tags: ["Courses, Assignmnets"]
 
 {{< treeview
   display="tree"
-/>}}hu
+/>}}

@@ -11,4 +11,4 @@ tags: ["Courses"]
 
 {{< treeview
   display="tree"
-/>}}hu
+/>}}

@@ -11,4 +11,4 @@ tags: ["Courses, TMA 01"]
 
 {{< treeview
   display="tree"
-/>}}hu
+/>}}
